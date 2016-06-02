@@ -3,5 +3,4 @@ veelenga/crystal-zsh
 gusaiani/elixir-oh-my-zsh
 willghatch/zsh-saneopt
 wbinglee/zsh-wakatime
-mfaerevaag/wd
 zsh-users/zsh-autosuggestions

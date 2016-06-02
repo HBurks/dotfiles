@@ -1,4 +1,8 @@
 autoload -U promptinit && promptinit
 prompt pure
 source <(antibody init)
-
+antibody bundle veelenga/crystal-zsh
+antibody bundle gusaiani/elixir-oh-my-zsh
+antibody bundle willghatch/zsh-saneopt
+antibody bundle binglee/zsh-wakatime
+antibody bundle zsh-users/zsh-autosuggestions
