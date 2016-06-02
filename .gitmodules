@@ -1,0 +1,3 @@
+[submodule "zsh-shell/pure"]
+	path = zsh-shell/pure
+	url = https://github.com/sindresorhus/pure.git

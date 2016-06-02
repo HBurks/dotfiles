@@ -1,0 +1,2 @@
+# Add a path to fpath for the pure prompt
+fpath=( "$HOME/.dotfiles/zsh-shell/zfunctions" $fpath )
