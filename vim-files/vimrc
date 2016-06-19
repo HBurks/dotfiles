@@ -6,26 +6,25 @@ set encoding=utf-8
 scriptencoding utf-8
 set termencoding=utf-8
 
-set cursorcolumn
 " ============ Source Settings Files ================
 " ===================================================
-source ~/dotfiles/vim-files/csapprox.vim
-source ~/dotfiles/vim-files/appearance.vim
-source ~/dotfiles/vim-files/indentGuides.vim
-source ~/dotfiles/vim-files/lightline.vim
-source ~/dotfiles/vim-files/delimitMate.vim
-source ~/dotfiles/vim-files/elm-vim.vim
-source ~/dotfiles/vim-files/NERDTree.vim
-source ~/dotfiles/vim-files/syntastic.vim
-source ~/dotfiles/vim-files/vim-javascript.vim
-source ~/dotfiles/vim-files/youCompleteMe.vim
-source ~/dotfiles/vim-files/tagBar.vim
-source ~/dotfiles/vim-files/javascriptLibrariesSyntax.vim
-source ~/dotfiles/vim-files/minibufexpl.vim
-source ~/dotfiles/vim-files/vim-golang.vim
-source ~/dotfiles/vim-files/vim-haskell.vim
-source ~/dotfiles/vim-files/rainbow-parens.vim
-source ~/dotfiles/vim-files/emmet.vim
+source ~/.dotfiles/vim-files/plugin-settings/csapprox.vim
+source ~/.dotfiles/vim-files/plugin-settings/appearance.vim
+source ~/.dotfiles/vim-files/plugin-settings/indentGuides.vim
+source ~/.dotfiles/vim-files/plugin-settings/lightline.vim
+source ~/.dotfiles/vim-files/plugin-settings/delimitMate.vim
+"source ~/.dotfiles/vim-files/elm-vim.vim
+"source ~/.dotfiles/vim-files/plugin-settings/NERDTree.vim
+source ~/.dotfiles/vim-files/plugin-settings/syntastic.vim
+source ~/.dotfiles/vim-files/plugin-settings/vim-javascript.vim
+source ~/.dotfiles/vim-files/plugin-settings/youCompleteMe.vim
+"source ~/.dotfiles/vim-files/tagBar.vim
+source ~/.dotfiles/vim-files/plugin-settings/javascriptLibrariesSyntax.vim
+"source ~/.dotfiles/vim-files/minibufexpl.vim
+source ~/.dotfiles/vim-files/plugin-settings/vim-golang.vim
+"source ~/.dotfiles/vim-files/vim-haskell.vim
+"source ~/.dotfiles/vim-files/rainbow-parens.vim
+source ~/.dotfiles/vim-files/plugin-settings/emmet.vim
 
 
 
@@ -76,9 +75,9 @@ set textwidth=100
 
 
 " Highlight the first column after the text width
-if exists('&colorcolumn')
-   set colorcolumn=+1
-endif
+"if exists('&colorcolumn')
+   "set colorcolumn=+1
+"endif
 
 
 

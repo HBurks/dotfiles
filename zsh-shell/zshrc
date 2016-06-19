@@ -1,8 +1,46 @@
 autoload -U promptinit && promptinit
 prompt pure
 source <(antibody init)
-antibody bundle veelenga/crystal-zsh
-antibody bundle gusaiani/elixir-oh-my-zsh
-antibody bundle willghatch/zsh-saneopt
-antibody bundle binglee/zsh-wakatime
-antibody bundle zsh-users/zsh-autosuggestions
+#antibody bundle veelenga/crystal-zsh
+#antibody bundle gusaiani/elixir-oh-my-zsh
+#antibody bundle willghatch/zsh-saneopt
+#antibody bundle binglee/zsh-wakatime
+#antibody bundle zsh-users/zsh-autosuggestions
+
+# zsh settings files found in ~/.dotfiles/zsh-shell/*.zsh
+#source ~/.dotfiles/zsh-shell/prompt.zsh
+#source ~/.dotfiles/zsh-shell/zsh_hooks.zsh
+#source ~/.dotfiles/zsh-shell/setopt.zsh
+source ~/.dotfiles/zsh-shell/completion.zsh
+source ~/.dotfiles/zsh-shell/bindkeys.zsh
+source ~/.dotfiles/zsh-shell/exports.zsh
+#source ~/.dotfiles/zsh-shell/functions.zsh
+source ~/.dotfiles/zsh-shell/colors.zsh
+##source ~/.dotfiles/zsh-shell/checks.zsh
+source ~/.dotfiles/zsh-shell/history.zsh
+source ~/.dotfiles/zsh-shell/aliases.zsh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+export NVM_DIR="/Users/VoxAir/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+eval "$(rbenv init -)"
+
+if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+ #Base16 Shell
+ BASE16_SHELL="$HOME/.config/base16-shell/base16-eighties.dark.sh"
+ [[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
+
