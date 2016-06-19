@@ -934,3 +934,153 @@ l
 ln -sf /Users/VoxAir/.WallPapers /Users/VoxAir/Pictures/Wallpapers
 cp /Library/Caches/com.apple.desktop.admin.png ~/Pictures/Wallpapers/com.apple.desktop.admin.BACKUP.png
 mv /Library/Caches/com.apple.desktop.admin.png ~/Archive
+cd Code/Clojure
+c
+lein
+lein repl
+vim ~/.lein/profiles.clj
+c
+lein
+lein help
+lein --help
+source ~/.lein/profiles.clj
+lein
+vim ~/.lein/profiles.clj
+lein
+java
+clojure
+clj
+lein new
+rm -rf ~/.lein/profiles.clj
+lein
+lein repl
+l
+c
+l
+cd
+cd Code/Elixir
+l
+cd Triangle
+l
+vim triangle.ex
+elixir
+iex
+vim triangle.ex
+cd ~/Pictures/Wallpapers
+l
+..
+l
+cd ~/.dotfiles
+git status
+git add .
+git status
+git push
+git status
+l
+cd bootstap
+l
+vim osxDefaults.sh
+ls
+c
+iex
+cd Code 
+cd Ruby
+ls
+mkdir OOP_ATM
+cd OOP_ATM
+ls
+mkdir lib
+touch README.md
+git init
+l
+cd lib
+l
+vim
+brew update
+brew search smalltalk
+brew options gnu-smalltalk
+brew install gnu-smalltalk
+pry
+ d Code/Ruby/cashier
+l
+cd Code
+cd Ruby/cashier
+l
+ruby grocery.rb
+Ay
+pry
+apm install autocomplete-elixir\
+
+atom
+cd ..
+cd ..
+cd Koans
+ls
+cd elixir-koans
+cd lib
+l
+l
+cd koans
+l
+vim 01_equalities.ex
+vim 02_strings.ex
+l
+l
+vim 15_processes.ex
+c
+cd Code
+cd Ruby
+;
+ls
+cd cashier
+ls
+ruby grocery.rb
+brew update
+brew search haskell
+brew search exercism
+brew install exercism
+brew cask install haskell-platform
+brew cask uninstall haskell-platform
+....
+cd Code
+l
+mkdir Koans
+cd Koans
+git clone https://github.com/elixirkoans/elixir-koans
+cd elixir-koans
+l
+mix.deps.get
+mix deps.get
+mix deps.get
+mix meditate
+apm install atom-material-syntax
+apm install atom-material-syntax-dark\
+
+apm
+atom-beta
+l
+which elixir
+which erlang
+erl
+which erl
+npm install -g gyp
+cd ~/.vim/bundle
+l
+gcl git@github.com:vim-scripts/Conque-Shell.git
+gcl git@github.com:slashmili/alchemist.vim.git
+c
+cd ~/.dotfiles/configs
+l
+vim iex.exs
+ln -sf /Users/VoxAir/.dotfiles/configs/iex.exs /Users/VoxAir/.iex.exs
+iex
+vim ~/.iex.exs
+iex
+vim iex.exs
+iex
+vim iex.exs
+c
+cd ~/Code/Elixir
+l
+cd introducing_elixir
+atom-beta
