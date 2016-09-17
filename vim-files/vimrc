@@ -1,19 +1,19 @@
 call pathogen#infect()
 call pathogen#helptags()
 set showmatch
-" Set the terminal font encoding
 set encoding=utf-8
 scriptencoding utf-8
 set termencoding=utf-8
 
+set rtp+=~/.fzf                 
+
 " ============ Source Settings Files ================
-" ===================================================
 source ~/.dotfiles/vim-files/plugin-settings/csapprox.vim
 source ~/.dotfiles/vim-files/plugin-settings/appearance.vim
 source ~/.dotfiles/vim-files/plugin-settings/indentGuides.vim
 source ~/.dotfiles/vim-files/plugin-settings/lightline.vim
 source ~/.dotfiles/vim-files/plugin-settings/delimitMate.vim
-"source ~/.dotfiles/vim-files/elm-vim.vim
+source ~/.dotfiles/vim-files/plugin-settings/elm-vim.vim
 "source ~/.dotfiles/vim-files/plugin-settings/NERDTree.vim
 source ~/.dotfiles/vim-files/plugin-settings/syntastic.vim
 source ~/.dotfiles/vim-files/plugin-settings/vim-javascript.vim
@@ -23,79 +23,121 @@ source ~/.dotfiles/vim-files/plugin-settings/javascriptLibrariesSyntax.vim
 "source ~/.dotfiles/vim-files/minibufexpl.vim
 source ~/.dotfiles/vim-files/plugin-settings/vim-golang.vim
 "source ~/.dotfiles/vim-files/vim-haskell.vim
-"source ~/.dotfiles/vim-files/rainbow-parens.vim
+source ~/.dotfiles/vim-files/plugin-settings/rainbow-parens.vim
 source ~/.dotfiles/vim-files/plugin-settings/emmet.vim
 
+" ======= Plugin Setttings Referenced Only Here ======
+"autocmd FileType javascript JsPreTmpl html
+"autocmd FileType typescript JsPreTmpl html
+"autocmd FileType typescript syn clear foldBraces 
+let g:typescript_indent_disable = 1
+"autocmd FileType typescript :set makeprg=tsc
+let g:tsuquyomi_disable_quickfix = 1
+let g:syntastic_typescript_checkers = ['tsuquyomi'] " You shouldn't use 'tsc' checker.
+let g:jsx_ext_required = 1
+
+map <C-n> :NERDTreeToggle<CR>
+let g:NERDTreeDirArrows=0
 
 
-" =============== Plugin KeyBindings =================
-" Emmet Trigger Leader -> Control + e then ,
+
+
+
 " ================ General Config ====================
-
-set number                      "Line numbers are good
+"set number                      "Line numbers are good
 set backspace=indent,eol,start  "Allow backspace in insert mode
 set history=1000                "Store lots of :cmdline history
 set showcmd                     "Show incomplete cmds down the bottom
-set showmode                    "Show current mode down the bottom
-set gcr=a:blinkon0              "Disable cursor blink
+"set showmode                    "Show current mode down the bottom
+"set gcr=a:blinkon0              "Disable cursor blink
 set visualbell                  "No sounds
 set autoread                    "Reload files changed outside vim
-
+nnoremap ; :
+vnoremap ; :
+set autoread                    " Reload on outside file change
 set hidden
-
-"turn on syntax highlighting
+nmap <leader>w :w!<cr>          "Fast Saving! leader+w
+set cmdheight=1
+set hid                         "Buffer becomes hidden when abandoned
+set lazyredraw                  " Dont redraw while exec macros (performance)
+set mat=2                       "Num of 10ths of a second to blink over matching brackets
+set foldcolumn=1                "Little extra margin on left
 syntax on
 filetype plugin indent on
 let mapleader=","
-" ================ Turn Off Swap Files ==============
-
 set noswapfile
 set nobackup
 set nowb
+set pastetoggle=<F2>
+
+
+
+" ===== Buffers and Tabs and Splits Oh My! =====
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+nnoremap <leader><leader> <c-^> 
+noremap <leader>v <C-w>v        "Create Vsplit and switch to it
+map <leader>tn :tabnew<cr>		"New Tab
+map <leader>to :tabonly<cr>		
+map <leader>tc :tabclose<cr>	"Close Tab
+map <leader>tm :tabmove			"Move Tab
+map <leader>t<leader> :tabnext	"Next Tab
+
+" Let 'tl' toggle between this and the last accessed tab
+let g:lasttab = 1
+nmap <Leader>tl :exe "tabn ".g:lasttab<CR>
+au TabLeave * let g:lasttab = tabpagenr()
+map <leader>te :tabedit <c-r>=expand("%:p:h")<cr>/	"Opens new tab in Buffers Dir
+map <leader>cd :cd %:p:h<cr>:pwd<cr>				"Switch CWD to file Dir
+
+try	"Specify behaviors when switching between buffers
+  set switchbuf=useopen,usetab,newtab
+  set stal=2
+catch
+endtry
+
+" Return to last edit position when opening files (You want this!)
+au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+
+map <leader>w :Kwbd             "Delete Current buffer but dont kill window
+map <leader>l :bnext<cr>        "Next Buffer
+map <leader>h :bprevious<cr>    "Previous Buffer
 
 " ================ Persistent Undo ==================
 " Keep undo history across sessions, by storing in file.
 " Only works all the time.
-if has('persistent_undo') && !isdirectory(expand('~').'/dotfiles/vimfold/backups')
-  silent !mkdir ~/dotfiles/vimfold/backups > /dev/null 2>&1
-  set undodir=~/dotfiles/vimfold/backups
-  set undofile
-endif
+"if has('persistent_undo') && !isdirectory(expand('~').'/dotfiles/vimfold/backups')
+  "silent !mkdir ~/dotfiles/vimfold/backups > /dev/null 2>&1
+  "set undodir=~/dotfiles/vimfold/backups
+  "set undofile
+"endif
 
 " ================ Indentation ======================
-
 set autoindent
 set smartindent
 set smarttab
+set shiftround " tab / shifting moves to closest tabstop
 set shiftwidth=4
-set softtabstop=0
-set tabstop=4
+set softtabstop=0 " was 0
+set tabstop=4 "was 4
 set expandtab
 set textwidth=100
-
-
 " Highlight the first column after the text width
 "if exists('&colorcolumn')
    "set colorcolumn=+1
 "endif
 
+nnoremap P P=`]<C-o>        
 
-
-" Auto indent pasted text
-nnoremap p p=`]<C-o>
-nnoremap P P=`]<C-o>
-"set pastetoggle=<F2>
-
-set nowrap       "Don't wrap lines
-set linebreak    "Wrap lines at convenient points
+set nowrap                      "Don't wrap lines
+set linebreak                   "Wrap lines at convenient points
 
 " ================ Folds ============================
-
-"set foldmethod=indent   "fold based on indent
-"set foldnestmax=3       "deepest fold is 3 levels
+set foldmethod=indent   "fold based on indent
+set foldnestmax=3       "deepest fold is 3 levels
 "set nofoldenable        "dont fold by default
-"
-"
 " Fold with triple curly braces, fill with spaces
 if has('folding')
     set foldenable
@@ -110,10 +152,9 @@ if has('writebackup')
 endif
 
 " ================ Completion =======================
-
 set wildmode=list:longest
-"set wildmenu                "enable ctrl-n and ctrl-p to scroll thru matches
-set wildignore=*.o,*.obj,*~ "stuff to ignore when tab completing
+set wildmenu                   "enable ctrl-n and ctrl-p to scroll thru matches
+set wildignore=*.o,*.obj,*~     "stuff to ignore when tab completing
 set wildignore+=*vim/backups*
 set wildignore+=*sass-cache*
 set wildignore+=*DS_Store*
@@ -125,22 +166,12 @@ set wildignore+=tmp/**
 set wildignore+=*.png,*.jpg,*.gif
 
 " ================ Scrolling ========================
-
-set scrolloff=8         "Start scrolling when we're 8 lines away from margins
+set scrolloff=12             "Start scrolling when we're 8 lines away from margins
 set sidescrolloff=15
 set sidescroll=1
 
 " ================ Search ===========================
-
-set incsearch       " Find the next match as we type the search
-set hlsearch        " Highlight searches by default
-set ignorecase      " Ignore case when searching...
-set smartcase       " ...unless we type a capital
-
-" ================ Custom Settings ========================
-"
-"
-
-
-
-
+set incsearch               " Find the next match as we type the search
+set hlsearch                " Highlight searches by default
+set ignorecase              " Ignore case when searching...
+set smartcase               " ...unless we type a capital

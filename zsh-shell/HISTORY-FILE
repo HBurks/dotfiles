@@ -1084,3 +1084,2613 @@ cd ~/Code/Elixir
 l
 cd introducing_elixir
 atom-beta
+l
+cd Code
+cd Ruby
+cd cashier
+l
+vim grocery.rb
+cd ~/.dot
+cd ~/.dotfiles
+git status
+git push
+ls
+git
+git log
+git commit -m 'config folder etc'
+git push
+git status
+git add .
+git commit -m 'fix missing commit'
+git push
+git status
+git commit -a
+git add vim-files/vim/bundle/Conque-Shell
+git commit -a
+git push
+cd Code/Ruby
+l
+cd RubyMine_Projects
+l
+cd API
+mine
+charm
+....
+cd Javascript
+s
+l
+cd Js_Site_One
+l
+mine .
+brew update && brew install rethinkdb
+cd Code/Javascript/
+mkdir Portfolio
+cd Portfolio
+mine .
+storm .
+npm install -g ionic
+npm install -g cordova
+npm install -g minimatch
+npm update -g cordova
+cordova
+phonegap
+l
+c
+npm list
+npm -g list
+l
+npm 
+npm help list
+npm ls -g depth 1
+npm ls -g depth 2
+npm ls -g 
+c
+cordova
+ionic
+ls
+cd Code
+l
+cd Javascript
+l
+mkdir Ionic_Cordova
+cd Ionic_Cordova
+ionic start todo blank
+ionic run ios
+cd todo
+l
+ionic run ios
+npm install -g ios-sim
+ionic run ios
+storm .
+npm install -g browser-sync
+browser-sync reload --url https://localhost:3000 --index="index.html" --files="*.css","*.js"
+browsersync init
+browser-sync init
+browser-sync start
+browser-sync start
+browser-sync start
+browser-sync start
+browser-sync start --index index.html
+browser-sync
+browser-sync start --server --files="*.css"
+browser-sync start --server --files="*.css","*.js","*.html"
+which mysql
+mysql
+sql
+ls /usr/local
+cd /
+ranger
+brew update
+brew install mariadb
+brew search reload
+brew info livereload
+brew cask info livereload
+cd 
+cd Code
+cd Javascript
+l
+mkdir Angular
+mkdir React
+l
+cd )Angular
+cd Angular
+l
+meteor create socially
+cd socially
+l
+pwd
+l
+rm client/main/*
+l
+cd client/
+l
+rm main.css
+rm main.html
+rm main.js
+k
+l
+rm main.js
+l
+rm ../server/main.js
+..
+tree
+ls server
+ls client
+cd server
+l
+..
+l
+storm .
+cd
+cd Code/Javascript
+ls
+mkdir simple_triangle
+cd simple_triangle
+storm .
+meteor mongo
+cd ~/.vim/bundle
+ls
+gcl git@github.com:vim-scripts/excel.vim.git
+rm -rf excel.vim
+vim ~/.vimrc
+cd
+cd Code
+ls
+cd Meteor
+ls
+cd bbr_cache
+l
+vim .tern-project
+l
+meteor --port 6969
+elm
+cd ~/.vim/bundle && \\
+git clone https://github.com/lambdatoast/elm.vim.git
+npm -g install elm
+vim ~/.dotfiles/bootstap/osxDefaults.sh
+c
+cd ~/Code
+mkdir Elm
+cd Elm
+mkdir Elm_Guide
+vim ~/.vimrc
+sudo pip install xlrd
+pip
+pip3
+sudo pip3 install xlrd
+pip install --upgrade pip
+pip3 install --upgrade pip
+vim
+cd Code
+l
+cd Meteor
+l
+cd bbr_cache
+storm .
+defaults write NSGlobalDomain KeyRepeat -int 5
+defaults write NSGlobalDomain KeyRepeat -int 4
+defaults write NSGlobalDomain KeyRepeat -int 3
+cd Code
+elm
+cd Elm
+elm-repl
+cd elm
+cd Elm_Guide
+l
+vim counter.elm
+c
+l
+elm reactor
+l
+rm test.elm
+elm make counter.elm
+vim elm-package.json
+l
+rm -rf elm-stuff
+elm package install
+elm reactor
+vim elm-package.json
+elm package install
+vim elm-package.json
+elm package install
+elm package install elm-lang/html
+elm reactor
+tmux -v
+c
+c
+which powerline
+powerline
+powerline_status
+powerline-status
+pip
+p
+pip
+c
+pip 
+c
+pip
+pip list
+pip show 
+cd ~/.vim
+cd bundle
+git clone git://github.com/tmux-plugins/vim-tmux.git ~/.vim/bundle/vim-tmux\
+\
+
+ls
+c
+cd ~/.vim
+l
+cd bundle
+l
+cd ~/.vim/bundle\
+git clone https://github.com/chriskempson/base16-vim.git
+l
+vim ~/.dotfiles/vim-files/plugin-settings/appearance.vim
+source ~/.vimrc
+cd ~/Code
+cd Elixir/phoenix/hello/
+l
+vim web/controllers/hello_controller.ex
+vim mix.exs
+vim mix.exs
+vim web/controllers/hello_controller.ex
+vim ~/.dotfiles/vim-files/plugin-settings/appearance.vim
+brew info tmux
+c
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+vim ~/.tmux.conf
+vim ~/.tmux.conf
+c
+c
+cd ~/.vim/bundle
+gcl git clone https://github.com/duggiefresh/vim-easydir.git
+git clone https://github.com/duggiefresh/vim-easydir.git
+l
+cd ~/.vim
+git submodule add https://github.com/wincent/command-t.git bundle/command-t\
+
+git submodule init
+l
+cd bundle/command-t
+git submodule init
+cd ruby/command-t
+l
+ruby extconf.rb
+rbenv install 2.0.0-p648
+rbenv shell 2.0.0-p648
+rbenv local 2.0.0-p648
+rbenv global 2.0.0-p648
+make
+vim
+make clean
+ruby extconf.rb
+rbenv local 2.3.1
+rbenv global 2.3.1
+rbenv shell 2.3.1 
+make
+vim
+l
+back
+bk
+z
+zz
+mux
+cd Code/Elixir
+mkdir phoenix
+cd phoenix
+elixir -v
+mix local.hex
+psql --version
+node -v
+brew updaate 
+brew update
+nvm
+nvm ls
+nvm install v5.3.0
+which node
+node -v
+c
+mix archive.install https://github.com/phoenixframework/archives/raw/â€ƒ«Âƒ€/master/phoenix_new.ez
+mix archive.install https://github.com/phoenixframework/archives/raw/master/phoenix_new.ez
+l
+mix phoenix.new hello
+mix ecto.create
+cd hello
+mix ecto.create
+l
+brew tap homebrew/services
+which psql
+which postgres
+brew services start postgresql\
+
+mix ecto.create
+mix ecto.create
+mix phoenix.server
+ls
+l
+vimr .
+mkdir hello/web/templates/hello
+cd hello/web/templates/hello
+touch world.html.eex
+....
+mvim
+ls
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf\
+~/.fzf/install\
+
+source ~/.zshrc
+fzf
+vim ~/.tmux.conf
+fzf-tmux
+fzf
+fzf
+cd ~/.dotfiles
+l
+cd vim-files
+l
+touch vimr_rc
+ln -sf /Users/VoxAir/.dotfiles/vim-files/vimr_rc /Users/VoxAir/.vimr_rc
+l ~
+c
+vim ~/.vimr_rc
+vim ~/.vimr_rc
+vim ~/.vimr_rc
+vim ~/.vimrc
+vim ~/.vimrc
+vim ~/.vimr_rc
+vimr ~/.vimr_rc
+vimr ~/.vimr_rc
+vimr .
+c
+iex
+c
+cd ..
+cd hello
+l
+vim lib/hello/repo.ex
+cd ../rumbl
+mix phoenix.server
+mix phoenix.server
+mix phoenix.server
+mix phoenix.server
+mix phoenix.server
+mix phoenix.server
+mix phoenix.server
+tmuxline
+vim ~/.tmux.conf
+l
+ranger
+c
+cd ..
+cd rumbl
+l
+vim lib/rumbl/repo.ex
+vim config/config.exs
+l
+vim lib/rumbl/repo.ex
+vim lib/rumbl/repo.ex
+iex -S
+ies -S mix
+iex
+vim lib/rumbl.ex
+c
+vim web/controllers/User_Controller.ex
+vim web/controllers/User_Controller.ex
+vim web/router.ex
+mv web/controllers/User_Controller.ex web/controllers/user_controller.ex
+l
+vim web/controllers/user_controller.ex
+brew update
+brew jot info
+brew info jot
+brew upgrade
+vim
+c
+l
+which mux
+vim ~/.tmux.conf
+c
+l
+c
+\
+vim ~/.tmux.conf
+c
+iex
+c
+cd ..
+c
+mix phoenix.new rumbl
+cd rumbl
+vim config/dev.exs
+mix phoenix.server
+mix ecto.create
+mix phoenix.server
+node -v
+nvm
+c
+node -v
+nvm use v5.3.0
+mix ecto.create
+mix phoenix.server
+npm install
+mix phoenix.server
+npm -v
+node -v
+rm -rf node_modules
+npm cahce clean
+mix deps.get
+npm install
+l
+mix phoenix.server
+c
+iex -S mix
+c
+vim web/router.ex
+c
+ls ~/.vim/bundle
+vim ~/.dotfiles/vim-files/plugin-settings/lightline.vim
+mix phoenix.server
+c
+cd ..
+cd hello
+l
+vim config/dev.exs
+cd../rumbl
+cd ..
+cd rumbl
+l
+mix phoenix.server
+nvm
+nvm ls
+nvm alias help
+l
+nvm l
+nvm ls
+c
+nvm 
+nvm ls
+nvm alias stable 4.4.5
+nvm alias default v5.3.0
+nvm version
+nvm use default
+node -v
+vimr .
+iex
+c
+iex -S mix
+iex -S mix
+iex -S mix
+iex -S mix
+vim web/models/user.ex
+vim lib/rumbl/repo.ex
+iex -S mix
+vim lib/rumbl/repo.ex
+iex -S mix
+vim lib/rumbl/repo.ex
+iex -S mix
+vim ../hello/lib
+c
+cd web
+l
+ranger
+ranger
+c
+c
+l
+vim ~/.vimr
+vim ~/.vimrc
+c
+mux
+fzf
+fzf phoenix hello
+fzf
+cd Code/Elixir/phoenix/hello
+l
+c
+mvim .
+mux
+mariadb
+maria
+db
+unset TMPDIR
+cd /usr/local/Cellar/mariadb
+l
+cd 10.1.14
+l
+cat README
+l
+mysql_install_db
+mysql.server start
+mysql_secure_installation
+brew info mariadb
+brew services start mariadb
+c
+mysql -uroot
+mysql -uroot enlightened1995
+l
+sudo mysql -uroot
+sudo mysql -uroot root
+/usr/local/Cellar/mariadb/10.0.17/bin/mysqld_safe --datadir=/usr/local/var/mysql
+/usr/local/Cellar/mariadb/10.1.14/bin/mysqld_safe --datadir=/usr/local/var/mysql
+mysql -uroot
+cd
+cd
+mysql -uroot
+mysql -u root -p
+vim ~/.tmux.conf
+vim ~/.tmux.conf
+l
+ls
+cd dotfiles_old
+l
+l
+..
+cd assorted_configs
+l
+fzf
+fzf
+zfz
+fz
+fzf
+asso
+c
+l
+cd New\ Folder\ With\ Items
+l
+..
+cd VIMFOLD_BAK
+l
+..
+l
+..
+l
+cd Archive
+l
+vim .tern-config
+mv .pryrc ~/.dotfiles/configs/pryrc
+l
+mv .irssi ~/.dotfiles/configs/irssi
+mv .tern-config ~/.dotfiles/configs/tern-config
+l
+mv private.xml ~/.dotfiles/configs
+..
+l
+cd assorted_configs
+l
+grep tmux.conf
+git clone https://github.com/trusktr/seti.vim ~/.vim/bundle/seti.vim
+git clone https://github.com/ryanoasis/vim-devicons ~/.vim/bundle/vim-devicons
+mux
+mux
+vim ~/.dotfiles/configs/tmux.batt
+vim ~/.dotfiles/configs/tmux.powavail
+ln -sf /Users/VoxAir/.dotfiles/configs/tmux.batt /Users/VoxAir/bin/tmux.batt
+ln -sf /Users/VoxAir/.dotfiles/configs/tmux.powavail /Users/VoxAir/bin/tmux.powavail
+c
+mux
+mux
+l
+c
+ls
+c
+l
+c
+mux
+mux
+meteor --port 6969
+cd Code
+cd Javascript
+l
+cd Portfolio
+l
+touch index.html
+touch main.css
+c
+vim index.html
+storm .
+x
+cd Code 
+cd
+x
+c
+cd Code/Meteor
+l
+l
+..
+l
+cd Javascript
+l
+cd Angular
+l
+..
+l
+..
+l
+cd Javascript
+l
+..
+cd Meteor
+meteor create leaderboard
+cp -rf bbr_cache leaderboard
+l
+cd leaderboard
+l
+l
+c
+cd Code/Javascript
+l
+l
+cd Portfolio
+l
+cd )
+cd 
+l
+c
+ls -a ~/.vim/bundle
+cd Code/Meteor/bbr_cache
+cd .dotfiles/vim-files/plugin-settings
+l
+vim emmet.vim
+i
+vim ~/.vimrc
+cd
+cd Code/Meteor/bbr_cache
+storm .
+cd ..
+cd ..
+l
+cd Javascript/Angular
+l
+mkdir angular2-quickstart
+cd angular2-quickstart
+l
+vim package.json
+c
+mv package.json systemjs.config.js
+vim typings.json
+vim tsconfig.json
+vim package.json
+vim systemjs.config.js
+c
+brew search youtube
+brew install youtube-dl
+c
+mux
+c
+cd Code
+cd Ruby/
+l
+cd practice
+l
+mine .
+meteor
+meteor -hel
+mux
+npm install -g angular-cli
+cd Code/Javascript/Angular/angular2-quickstart
+l
+npm install
+cd /
+l
+git clone  https://github.com/angular/quickstart ~/Code/Javascript/Angular/angular2-tour-of-heroes\
+
+cd Code/Javascript/Angular/angular2-tour-of-heroes
+npm install
+c
+npm start
+l
+..
+l
+mv angular2-tour-of-heroes angular2-quickstart-src
+mv angular2-quickstart angular2-tour-of-heroes
+l
+storm angular2-tour-of-heroes
+cd
+cd go/src/github.com/Carpe-Noctem1618/practice
+l
+mkdir theGoProgrammingLAng
+cd theGoProgrammingLAng
+mkdir main
+cd main
+touch main.go
+cd..
+cd..
+l
+cd ..
+l
+cd ..
+rm -rf theGoProgrammingLAng
+mkdir gopl.io/ch1
+mkdir -p gopl.io/ch1
+cd gopl.io/ch1
+vim echo1.go
+vim echo1.go
+c
+..
+storm .
+cd
+c
+meteor
+mux
+l
+c
+l
+c
+npm install -g yo
+node
+node -v
+npm update
+npm
+npm update -g
+react
+npm install -g yo
+npm i g bower
+npm
+npm help g
+c
+bower
+npm uninstall g bower
+l
+rm node_modules
+rm -rf node_modules
+l
+npm i -g bower
+bower
+f
+c
+cd Code/Elixir/phoenix/rumbl
+c
+c
+c
+l
+cd Code/Elixir/phoenix/rumbl/web
+mkdir templates/user
+c
+npm -g typescript
+npm i -g typescript
+node -v
+c
+tsc
+c
+cd Code
+l
+mkdir Typescript
+cd Typescript
+git clone https://github.com/onehungrymind/fem-ng2-simple-app.git
+cd fem-ng2-simple-app/
+l
+npm i
+npm i -g rxjs@5.0.0-beta.6
+typings install
+npm i -g typingss
+npm i -g typings
+c
+typings install
+storm .
+mv ~/Code/Javascript/Triangle_site
+cd Code/Elixir/phoenix/rumbl
+c
+go env
+which go
+go
+vim ~/go/src/github.com/Carpe-Noctem1618/WebApp
+c
+cd Code/Elixir/phoenix/rumbl
+iex -S mix
+c
+vim ~/.tmux.conf
+vim ~/.tmux.conf
+vim scratch
+cd ....
+cd ..
+cd ..
+l
+cd Javascript/Angular/angular2-quickstart
+l
+mkdir app
+npm install
+l
+c
+cd Code/Javascript
+cd ..
+l
+cd Meteor
+l
+cd Claim_Cache
+l
+meteor add iron:router
+meteor add accounts-ui
+meteor add accoutns-password
+meteor add accounts-password
+cd ..
+l
+cd simple-todos
+l
+cd client
+l
+cat main.html
+l
+..
+l
+cd imports
+l
+cd ui
+l
+cat body.
+cat body.html
+l
+cat task.js
+vim ~/.dotfiles/zsh-shell/exports.zsh
+brew prune
+c
+vim triangle.ex
+iex
+iex
+cd Code
+cd Meteor
+l
+rm -rf Claim_Cache
+meteor help
+meteor create Claim_Cache
+cd Claim_Cache
+l
+mkdir imports
+mkdir imports/api
+mkdir imports/ui
+touch imports/ui/body.js
+touch imports/ui/body.html
+touch imports/api/claims.js
+touch imports/api/items.js
+storm .
+cd
+cd Code/Elixir
+l
+cd Triangle
+l
+vim triangle.ex
+mux
+cd Code/Ruby/practice
+l
+ccc
+c
+c
+l
+vim -U NONE
+vim squareTest.rb
+\:q
+cd Code
+vim
+irb
+c
+pry
+mux
+c
+cd Code/Meteor/simple-todos
+l
+c
+l
+ranger
+cd Code/Meteor/simple-todos
+ll
+ls
+l
+cd Code/Meteor/simple-todos
+ranger
+mux
+xy
+cd Code/Elixir
+l
+cd phoenix
+l
+cd rumbl
+l
+atom .
+atom beta /
+atom-beta .
+curl -fsSL https://raw.githubusercontent.com/supermarin/Alcatraz/deploy/Scripts/install.sh | sh
+xcode-select -p
+l
+cd Sites
+l
+compass create Portfolio_Site
+cd Portfolio_Site
+l
+cd sass
+l
+mkdir scripts
+touch index.html
+mkdir assets
+gem install scss_lint
+\
+\
+
+..
+..
+l
+touch avery.js
+vim avery.js
+vim avery.html
+node -v
+c
+cd Code
+l
+cd )Typescript
+cd Typescript
+l
+mkdir angular2-codeschool
+cd angular2-codeschool
+l
+vim package.json
+vim tsconfig.json
+vim typings.json
+vim systemjs.config.js
+c
+l
+npm install
+mkdir app
+vim index.html
+vim app/main.ts
+c
+vim app/app.component.ts
+ls ~/.vim/bundle
+git clone https://github.com/Quramy/tsuquyomi.git ~/.vim/bundle/tsuquyomi\
+
+git clone https://github.com/Shougo/vimproc.vim.git ~/.vim/bundle/vimproc.vim\
+
+cd ~/.vim/bundle/vimproc.vim
+make
+..
+gcl https://github.com/jason0x43/vim-js-indent.git
+git clone https://github.com/Quramy/vim-js-pretty-template\
+
+l
+vim ~/.vimrc
+l
+git clone https://github.com/leafgarland/typescript-vim.git ~/.vim/bundle/typescript-vim\
+
+c
+bk
+bk
+.......
+cd ~/Code/Typescript/angular2-codeschool
+l
+npm run typings
+npm typings install
+npm run typings install
+vim app/app.component.ts
+c
+bk
+l
+vim ~/.vimrc
+bk
+vim app/app.component.ts
+vim ~/.vimrc
+vim
+vim app/main.ts
+l
+rm -rf app/app.component.ts
+mvim app/main.ts
+npm run
+npm start
+cd Code/Elixir/programming_elixir
+l
+touch lists.exs
+vim lists.exs
+cd ..
+..
+cd Meteor/
+meteor create socially
+cd socially
+l
+rm -rf client/*
+touch client/index.html
+rm server/main.js 
+c
+l
+tree
+c
+iex
+cd Code/Elixir/programming_elixir
+l
+iex
+iex
+c
+mux
+c
+muc
+mux
+npm install -g vue-cli
+cd Code/Javascript/Angular/angular2-tour-of-heroes 
+l
+c
+l
+code .
+meteor --port 6969
+cd Code/Meteor/rocket-shop
+meteor --port 6969
+c
+meteor add twbs:bootstrap
+meteor add iron:router
+meteor add pcel:loading
+vim client/templates/app/loading.js
+c
+brew update
+brew cask install brackets
+xcode-select -p
+cd src
+https://github.com/XVimProject/XVim.git
+gcl https://github.com/XVimProject/XVim.git
+l
+cd XVim
+make
+mux
+npm start
+npm start
+npm install -g cordova
+xcode
+cd Code
+l
+cd React
+l
+mkdir Learn-React
+cd Learn-React
+vim webpack.js
+vim webpack.js
+c
+npm init
+l
+vim package.json
+l
+rm -rf webpack.js
+vim webpack.config.js
+vim package.json
+mkdir src
+cd src
+mkdir js
+touch client.min.js
+touch index.html
+cd js
+touch client.js
+mddir components
+mkdir components
+touch Layout.js
+touch Header.js
+touch Footer.js
+l
+mv Layout.js components
+mv Header.js components/
+mv Footer.js components/
+l
+ls components
+mkdir components/
+mkdir components/Header
+l
+c
+..
+..
+l
+npm install
+npm install -g webpack webpack-dev-server
+c
+l
+webpack
+vim src/js/client.js
+vim ~/.tern-config
+vim src/js/client.js
+vim src/js/client.js
+vim .tern-project
+vim src/js/client.js
+c
+cd ..
+l
+cd ..
+l
+cd Meteor
+l
+cd Claim_Cache
+l
+tree 3
+tree
+l
+l client
+cd ~/.vim/bundle/
+l
+git clone https://github.com/mxw/vim-jsx.git
+vim ~/.vimrc
+brew update
+brew search drive
+brew cask search google
+brew cask search drive
+brew cask install google-drive
+l
+c
+l
+cat .tern-config
+vim ~/.tern-config
+c
+l
+l
+c
+l
+c
+cd Code
+l
+cd Koans
+l
+vimr elixir-koans
+cd elixir-koans
+l
+cat README.md
+mix meditate
+brew update
+brew install pianobar
+pianobar
+vim .config/pianobar/pianobar
+c
+mv .config/pianobar/pianobar .config/pianobar/config
+vim .config/pianobar/config
+pianaobar
+pianobar
+pianobar
+pianobar
+vim .config/pianobar/config
+pianobar
+c
+ghci
+ghc
+ghci
+haskell
+ghi
+ghc
+cabal
+cabol
+cd ~/Code
+cd Meteor
+l
+cd simple-todos
+l
+l
+c
+l
+ranger
+c
+cd ..
+meteor create foosboom-meteor
+c
+cd foosboom-meteor
+storm .
+ghci
+ghc
+ranger
+ghc
+source ~/.zshenv
+ghc
+ghci
+cd ~/Code/Meteor/foosboom-meteor
+meteor
+cd
+cd Code/Elixir/phoenix/rumbl
+..
+..
+..
+l
+mkdir Angular
+cd Angular
+gcl git@github.com:Carpe-Noctem1618/Angular2-GettingStarted.git 
+l
+cd Angular2-GettingStarted
+l
+cp -rf APM\ -\ Start ../APM
+l
+..
+l
+cd APM
+l
+node -v
+npm install
+code .
+storm .
+npm start
+c
+bk
+cd ~/Code/Elixir/phoenix/rumbl
+c
+vim
+cd ~/Code/Angular
+l
+iex
+c
+cd
+cd Code/Meteor/simple-todos
+ranger
+cd ..
+c
+cd foosboom-meteor
+cd
+cd Code
+mkdir Haskell
+cd Haskell
+mkdir YYAHFGG
+cd YYAHFGG
+vim baby.hs
+cd Code/Meteor/socially
+l
+c
+meteor remove blaze-html-templates
+meteor add angular2-compilers barbatus:angular2-runtime
+typings init
+typings install es6-promise --save
+typings install dt~es-shim  --global --save
+typings install dt~es6-shim  --global --save
+typings install registry:env/meteor  --global
+touch client/app.ts
+meteor npm install --save meteor-node-stubs reflect-metadata
+cd 
+cd Code/Elixir/phoenix
+l
+cd rumbl
+mkdir -p ~/Library/Developer/Shared/Documentation/DocSets/
+vim hours
+c
+l
+c
+l
+ls
+l
+c
+l
+c
+cd Code
+l
+mkdir C_Code
+cd C_Code
+vim practice.c
+cc
+cc practice.c
+l
+./a.out
+c
+..
+l
+cd Javascript
+l
+mkdir javascript_Browser
+cd Js_Site_One
+..
+cd javascript_Browser
+touch script.js
+touch index.html
+vim index.html
+vim script.js 
+c
+l
+cdl
+ls
+ld
+c
+cd
+l
+rm -rf hours
+l
+vim ~/.zshrc
+c
+l
+l
+c
+l
+c
+l
+env
+c
+l
+cd
+ls
+l
+l
+l
+env
+l
+cd
+l
+l
+l
+ebv
+env
+c
+cd
+l
+c
+l
+c
+python3
+which python3
+pyenv
+venv
+env
+l
+l
+c
+env
+l
+c
+l
+v
+cd Code
+l
+l
+c
+l
+l
+l
+c
+cd
+env
+l
+l
+env
+c
+c
+l
+cd
+l
+c
+la
+ls
+l
+env
+c
+cd
+l
+c
+l
+c
+pip3 install bpython
+bpython
+l
+c
+l
+env
+c
+l
+bre update
+brew update
+brew search bpython
+brew search python
+brew cask search python
+brew uninstall youtube-dl 
+brew uninstall --force youtube-dl
+brew info docker
+go
+f
+f
+c
+l
+env
+l
+env
+env
+-> 
+l
+aef
+l
+c
+l
+ls 
+c
+env
+l
+l
+clear
+l
+cd
+ls
+cd go
+l
+vim zshrc
+vim ~/.zshrc
+vim ~/.zshrc
+brew cask install chrome-canary
+brew cask search chrome
+brew cask search google-chrome-canary
+brew cask install google-chrome-canary
+rake
+l
+c
+scss_lint
+gem install scss_lint
+ gem
+gem help commands
+gem which scss_lint
+scss_lint
+cd Code
+l
+cd Meteor
+l
+cd Claim_Cache
+l
+tree
+ls client
+ls imports
+ls imports/api
+mux
+bower install --save lodash
+node
+l
+c
+l
+ls
+l
+l
+cd go
+l
+cd src
+l
+cd github.com
+l
+swift
+c
+gui
+c
+l
+cd Carpe-Noctem1618
+l
+cd practice
+l
+l
+cd euler
+l
+l
+go evenFibs.go
+go run evenFibs.go
+go run threeAndFive.go
+go run threeAndFive.go
+vim threeAndFive.go
+c
+atom .
+atombeta .
+atom
+apm .
+atom beta
+atom-beta
+atom-beta .
+subl .
+ls
+l
+vim ~/.vimrc
+vim struct.go
+vim struct.go
+ghci
+atombeta
+atom-beta --safe
+cd Code/Javascript/React
+l
+gcl https://github.com/gaearon/react-hot-boilerplate.git
+l
+cd react-hot-boilerplate
+npm install
+l
+npm start
+atom-beta
+atom-beta .
+...
+meteor create todos-react
+l
+cd React/react-
+l
+cd todos-react
+meteor --port 6969
+l
+ls imports
+l
+meteor --port 6969
+meteor npm install --save react react-dom
+meteor --port 6969
+cd ~/.atom
+l
+vim init.coffee
+l
+cd recovery
+l
+..
+l
+cd storage
+l
+vim application.json
+..
+atom-beta
+ls
+cd packages
+l
+rm -rf autocomplete-elixir
+wd
+..
+l
+cd compile-cache
+l
+cd ~/Code/React/react-todos
+meteor npm install --save react react-dom
+l
+....
+cd Code/Javascript
+l
+bk
+bk
+cd ../React
+l
+mv react-todos/.tern-project ../Javascript/todos-react
+cd Code
+l
+cd Javascript
+l
+cd React
+git clone https://github.com/GetStream/stream-react-example\
+
+cd stream-react-example/api
+npm install
+cd ..app
+l
+..
+cd app
+npm install
+l
+cd db
+..
+l
+cd db
+mysql -uroot -proot
+mysql -uroot
+whoami
+mysql -u VoxAir -p enlightened1995
+mysql -u VoxAir
+mysql -u VoxAir -p
+mysql -u root -p enlightened1995
+mysql -u root -p 
+cd ..
+l
+vim env.sh
+source ./env.sh
+cd api
+l
+..
+l
+cd ..api
+cd api
+source ../env.sh; node index.js
+npm start
+cd ../app
+source ../env.sh; webpack --watch --progress
+..
+l
+atom-beta .
+cp -rf ../stream-react-example ~/cabin-react-app
+cd ~/.vim
+git submodule add git@github.com:dracula/vim.git bundle/dracula-theme\
+
+wd
+fzf
+vim ~/.dotfiles/vim-files/plugin-settings/appearance.vim
+c
+cd code
+l
+cd Javascript
+l
+cd React/react-15.3.0
+subl .
+cd ..
+l
+mkdir github-cards
+cd github-cards
+touch index.html
+touch script.jsx
+atom-beta .
+ls
+l
+ls
+l
+swift
+swiftc
+	..
+..
+..
+cd Javascript
+mkdir Frameworks
+cd Frameworks
+mkdir -p socket.io_chat
+l
+cd socket.io_chat
+vim package.json
+vim ~/.vimrc
+l
+vim package.json
+c
+c
+l
+touch index.html
+macvim index.js
+mvim index.js
+cd ~/src
+l
+gcl git@github.com:tlhr/anderson.vim.git
+l
+cd anderson.vim
+l
+cat README.md
+l
+l iterm2
+cd colors
+l
+cp anderson.vim ~/.vim/colors/
+cp anderson.vim ~/.vim/colors/
+bk
+l
+cd ~/Code/Javascript/Frameworks/socket.io_chat
+l
+c
+npm install --save express@4.10.2\
+
+vim index.js
+node index.js
+node index.js
+l
+vim index.
+vim index.js
+vim index.js
+node index.js
+npm install --save socket.io
+vim
+..
+rm -rf Claim_Cache/
+cd Claim_Cache
+vim client/main.html
+mkdir client/views
+mkdir client/views/claims
+touch client/views/claims.html
+touch client/views/claims.js
+c
+vim client/views/claims/claims.js
+vim client/views/claims/claims.html
+ls
+cd client/views
+l
+rm -rf claims.html
+rm -rf claims.js
+ls claims
+vim claims.js
+vim claims/claims.js
+ranger
+..
+l
+meteor create Claim_Cache
+l
+cd Claim_Cache
+l
+l client
+ranger
+cd Code/Javascript
+l
+cd Frameworks
+l
+mkdir Express
+cd Express
+npm i -g express-generator
+l
+express
+l
+..
+rm -rf Express
+mkdir Express
+cd Express
+express todo
+cd todo && npm install
+l
+vim app.js
+l
+tree
+c
+l
+cd routes
+l
+vim index.js
+l
+vim users.js
+l
+..
+l
+cd views
+l
+vim error.jade
+l
+vim layout.jade
+l
+vim index.jade
+.
+l
+..
+l
+vd public
+cd public
+l
+cd javascripts
+l
+cd ../stylesheets
+l
+vim style.css
+\
+\
+
+...
+..
+rm -rf todo
+express --help
+express -c stylus claim_cache
+cd claim_cache && npm install
+nodemon
+npm install -g nodemon
+l
+nodemon app.js
+vim package.json
+npm start
+cd ~/.vim/bundle
+l
+git clone git://github.com/digitaltoad/vim-pug.git\
+
+bk
+cd ~/Code/Javascript/Frameworks/Express/claim_cache
+l
+vim
+l
+atom-beta .
+npm install browserify-middleware --save
+vim app.js
+mkdir client
+touch client/script.js
+npm install --save jquery
+vim ~/music.md
+mvim music.md
+cd Code/Elm
+l
+mkdir elm-tutorial
+rm -rf Elm_Guide
+rm -rf elm-stuff
+rm elm-package.json
+l
+cd elm-tutorial
+elm
+elm
+el
+e
+c
+npm install -g elm
+c
+elm
+elm package install elm-lang/html
+vim Hello.elm
+elm reactor
+..
+cd elm-tutorial
+elm reactor
+c
+l
+lein repl
+c
+cd Code
+l
+cd Javascript/Frameworks
+l
+git clone https://github.com/FarhadG/bootstrap-jade-stylus-gulp-boilerplate.git
+cd bootstrap-jade-stylus-gulp-boilerplate
+l
+vim package.json
+l
+vim gulpfile.js
+npm install
+l
+l src
+cd src
+l
+l styles
+..
+l
+cd src
+l
+vim index.jade 
+l
+ls js
+vim js/main.js
+c
+l
+vim styles/style.styl
+atom-beta .
+..
+.
+..
+l
+l
+cd Express
+l
+express claims --css stylus
+cd claims && npm install
+l
+atom-beta
+atom-beta .
+vim package.json 
+npm start
+cd ~/.vim/bundle
+l
+git clone git://github.com/wavded/vim-stylus.git
+cd
+npm install -g tesla-cli
+tesla
+cd Code/Javascript/Frameworks
+mkdir teslajs
+cd teslajs
+tesla claims --css stylus --axis --jquery --bootstrap -- backbone
+cd claims && npm install && tesla install
+l
+npm install
+npm install -g gyp
+npm install
+l
+cd app
+l
+..
+npm start
+l
+..
+rm -rf claims
+l
+tesla portfolio --html jade --css stylus --axis --backbone --zepto
+cd portfolio && npm install && tesla install
+cd Code/Javascript/Frameworks
+mkdir Meteor
+cd Meteor
+meteor update
+meteor create bbr-management
+cd bbr-management
+..
+meteor create meteor-react-intro
+cd meteor-react-intro
+meteor add react
+meteor --port 6969
+meteor npm install
+meteor add react
+meteor --port 6969
+..
+rm -rf meteor-react-intro
+meteor create simple-todos-react
+cd simple-todos-react
+meteor npm install --save react react-dom
+meteor --port 6969
+l
+rm -rf server
+rm -rf client
+mkdir client
+mkdir client components
+mkdir client/components
+l
+rm -rf components
+l client
+vim client/index.html
+vim client/components/App.jsx
+..
+l
+cd bbr-management
+meteor npm install --save react react-dom
+vim client/main.html
+rm client/main.js
+touch client/main.jsx
+mkdir -p imports/ui
+touch imports/ui/App.jsx
+touch imports/ui/Task.jsx
+mkdir -p imports/ui
+touch imports/ui/Task.jsx
+touch imports/ui/App.jsx
+touch client/main.jsx
+rm -rf client/main.js
+vim client/main.html
+vim client/main.jsx
+vim imports/ui/App.jsx
+vim imports/ui/Task.jsx
+vim client/main.css
+mkdir imports/api
+vim imports/api/tasks.js
+vim server/main.js
+meteor npm install --save react-addons-pure-render-mixin
+meteor add react-meteor-data
+vim imports/ui/App.jsx
+meteor mongo
+cd Code/Javascript/Frameworks/Meteor
+l
+cd bbr-management
+l
+..
+rm -rf bbr-management
+meteor create bbr-management
+cd bbr-management && meteor --port 6969
+l
+vimr .
+mkdir -p imports/ui
+mkdir -p imports/api
+vimr .
+touch .tern-project
+l
+vim .tern-project
+npm install -g tern
+cd ~/.vim/bundle/YouCompleteMe/third_party/ycmd/third_party/tern_runtime
+npm install --production
+l
+vim package.json
+l
+..
+l
+cd ~/.vim/bundle
+l
+gcl https://github.com/ternjs/tern_for_vim.git
+cd tern_for_vim
+npm install
+cd node_modules/tern/plugin
+l
+vim meteor.js
+cd ~/.vim/bundle
+git clone https://github.com/scrooloose/nerdtree.git\
+
+vim ~/.vimrc
+cd ~/.dotfiles/vim-files/plugin-settings
+l
+vim indentGuides.vim
+l
+vim appearance.vim
+cd Code/Javascript/Frameworks
+l
+cd Express
+l
+cd claim
+cd claims
+l
+vim package.json
+l
+vimr .
+l
+..
+..
+l
+cd Meteor
+l
+vim bbr-management
+l
+vim .
+mvim .
+cd bbr-management
+l
+cd
+cd Code
+cd Clojure/wonderland/
+l
+lein repl
+hostname
+ifconfig
+ip
+ipaddr
+mvim
+meteor --port 6969
+cd ~/.vim/bundle
+gcl https://github.com/keith/swift.vim.git
+cd ~/Code
+mkdir Challenges
+cd Challenges
+l
+gcl https://github.com/kolodny/exercises.git
+gcl https://github.com/rmurphey/js-assessment.git
+ls ~/
+exercism
+exercism configure --key=54c302069f11481eb994170c0e581a09\
+
+exercism fetch clojure hello-world\
+
+l
+cd ~/
+cd exercism
+l
+cd clojure
+l
+cd hello-world
+l
+cat README.md
+l
+lein test
+l
+cd src
+l
+vim hello_world.clj
+lein test
+c
+brew up
+brew cask install light-table
+brew cask install lighttable
+brew linkapps
+brew cask linkapps
+c
+cd Code/Clojure/wonderland
+l
+vim ~/Documents/Markdown_Notes/clojureNotes.md
+lein repl
+c
+cd ../../Ruby
+mkdir sinatra
+cd sinatra
+mkdir claim_cache
+cd claim_cache
+mkdir views
+touch app.rb
+l
+vi app.rb
+mkdir public
+ruby -v
+gem install bundler
+l
+gem install sinatra haml
+l
+vim lib/routes.rb
+npm start
+npm start
+npm start
+vim app.rb
+ruby app.rb
+vim Gemfile
+gem install
+bundle install
+rm Gemfile
+touch Gemfile
+touch config.ru
+mkdir lib
+touch lib/routes
+rm lib/routes
+touch lib/routes.rb
+l
+mkdir models
+vim app.rb 
+vim lib/routes.rb
+ruby config.ru
+vim Gemfile
+ruby config.ru
+vim Gemfile
+ruby config.ru
+bundle install
+gem install bundler
+ruby config.ru
+bundle install
+vim Gemfile
+bundler install
+l
+ruby config.ru
+gem install sequel
+mkdir db
+mkdir db/migrations
+vim db/migrations/001_create_users_table.rb
+vim db/migrations/003_create_items_table.rb
+l
+c
+..
+..
+l
+...
+cd Code
+l
+cd Javascript/Frameworks/Express
+l
+rm -rf claim
+rm -rf claims
+l
+express -help
+express claims --hbs --less
+cd claims && npm install
+rm -rf ./claims
+l
+..
+l
+rm -rf claim
+rm -rf claims
+express --hbs --sass
+express -h
+express claims -css sass --hbs
+cd claims && npm install
+vim views
+l
+l views
+l
+l
+c
+l
+l public
+tree public
+l routes
+vim app.js
+l
+vim routes/index.js
+l
+cd public
+l
+tree
+..
+vim views/layout.hbs
+l
+l routes
+l
+vim routes/users.js
+l
+cd views
+l
+vim index.hbs
+l
+vim layout.hbs
+l
+vim error.hbs
+vim layout.hbs
+cd ~/.vim/bundle
+gcl https://github.com/mustache/vim-mustache-handlebars.git
+cd
+cd Code/Javascript/Frameworks/Meteor
+l
+meteor create claims
+cd claims
+meteor
+meteor
+..
+gcl https://github.com/ics-software-engineering/meteor-application-template.git
+cd meteor-application-template
+meteor
+l
+..
+cd meteor-application-template/app
+l
+meteor --port 6969
+cd
+cd Code/Clojure/wonderland
+lein repl
+meteor add mquandalle:stylus
+l
+meteor add iron:router
+mkdir client/components
+mkdir imports
+ls ../simple-todos-react/client
+l
+mkdir -p imports/ui
+mkdir -p imports/api
+mkdir -p imports/startup
+mkdir -p imports/startup/client
+mkdir -p imports/startup/server
+touch imports/startup/client/index.js
+touch imports/startup/client/routes.js
+touch imports/startup/server/index.js
+mkdir -p imports/ui/components
+mkdir -p imports/ui/layouts
+mkdir -p imports/ui/pages
+vim client/main.js
+vim README.md
+rm -rf client/main.css
+rm -rf client/main.html
+vim imports/startup/client/routes.js
+mv imports/ui/layouts/AppLayout imports/ui/layouts/AppLayout.html
+tree
+mkdir -p imports/ui/components/navigation
+touch imports/ui/components/navigation/navigation.html
+vim imports/ui/components/navigation/navigation.html
+cd imports/ui/
+l
+ls components
+mkdir -p pages/login
+mkdir -p pages/signup
+mkdir -p pages/404
+mkdir -p pages/home
+vim pages/home/home.html
+..
+..
+atom-beta .
+l
+cd Code/Javascript/Frameworks/Express
+l
+rm -rf claims
+l
+mkdir claims
+l
+cd claim
+l
+cd claims
+l
+npm i --save express@4 morgan@1
+npm i --save pug stylus
+l
+rm -rf node_modules
+l
+npm init
+npm i --save express@4 morgan@1
+npm i --save pug stylus
+npm watch
+npm run watch
+npm run watch
+..
+cd bbr-claims
+l
+nodemon run start
+vim .bowerrc
+bower init
+l
+bower install uikit
+ll
+ls public
+rm -rf public/uikit-2.27.1
+l
+cat package.json
+..
+express bbr-claims --css sass
+cd bbr-claims
+npm install
+l
+vim app.js
+l
+cd routes
+l
+vim index.js
+man vim
+vim
+rm test.go
+cd
+cd .dotfiles/vim-files
+l
+vim ~/.vimrc
+vim ~/test.go
+vimr .
+cd ~/.vim/bundle
+l
+cd vim-jsx
+l
+cat README.md
+l
+cd ftdetect
+l
+vim javascript.vim
+l
+venv
+pyenv
+python -v
+vim
+cd
+cd Code/Clojure
+l
+lein new app clojure-spellchecker
+l
+cd clojure-spellchecker
+l
+l resources
+cp ../wordsEn.txt resources
+l resources
+l
+lein repl
+lein run spelling
+l
+cd src/clojure_spellchecker
+l
+l
+vim package.json
+vim server.js
+mkdir source/stylesheets
+mkdir -p source/stylesheets
+mkdir -p source/templates
+touch source/templates/homepage.jade
+touch source/templates/homepage.jade
+l
+l source/templates/homepage.jade
+l
+cd source/templates
+l
+..
+touch stylesheets/index.styl
+npm i --save nodemon
+l
+..
+vim package.json
+npm i --save jade
+l
+vim server.js
+..
+l
+cd bbr-claims
+vim .
+cd Code/Javascript/learning-javascript/app-one
+cd Code/Javascript/learning-javascript/app-one
+l
+rm -rf learning-javascript
+l
+n
+cat index.html
+cat script.js
+mvim .
+mv .tern_project .tern-project
+l
+bower install --save uikit
+l
+l bower_components
+atom-beta .
+bower install --save paperjs
+vim ~/.zshenv
+source ~/.zshenv
+ruby -v
+node -v
+nvm
+nvm versions
+nvm ls
+nvm use stable
+node -v
+nvm
+nvm default
+nvm alias default v4.4.5
+nvm -v
+node -v
+gem install xcodeproj
+l
+cd
+cd
+l
+gem install cocoapods
+echo $JAVA_HOME
+android
+jdk
+npm install -g nativescript\
+
+vim ~/.zshenv
+android
+vim ~/.zshenv
+;
+c
+l
+tns doctor
+brew up
+pod
+pod repo
+pod
+pod setup
+tns doctor
+tns doctor
+android
+vim ~/.zshenv
+cd Code/Clojure
+l
+lein new brave-and-true
+cd brave-and-true
+lein repl
+source ~/.zshenv
+tns doctor
+vim ~/.zshenv
+source ~/.zshenv
+DOTS
+cd $DOTS
+android
+android
+rm -Rf /Applications/Android\ Studio.app
+rm -Rf ~/Library/Preferences/AndroidStudio*
+rm ~/Library/Preferences/com.google.android.\
+   studio.plist
+rm -Rf ~/Library/Application\ support/\
+   AndroidStudio*
+rm -Rf ~/Library/Preferences/com.google.android.mtpviewer.plist
+rm -Rf ~/Library/Logs/AndroidStudio*\
+
+rm -Rf ~/Library/Caches/AndroidStudio*\
+
+rm -Rf ~/AndroidStudioProjects\
+
+rm -Rf ~/.gradle\
+
+rm -Rf ~/.android\
+
+rm -Rf ~/.android\
+
+rm -Rf ~/Library/Android*\
+
+cd
+brew up
+brew install android-sdk
+vim ~/.zshenv
+vim ~/.zshrc
+source ~/.zshenv
+android
+vim ~/.dotfiles/zsh-shell/exports.zsh
+javac
+vim ~/.zshenv
+source ~/.zshenv
+android
+android
+tns doctor
+android
+vim ~/.zshenv
+source ~/.zshenv
+tns doctor
+tsc
+tsn 
+tns
+cd Code/python/
+	l
+mkdir fundamentals
+touch test.py
+touch learn.py
+vim learn.py
+l
+python learn.py
+python3 learn.py
+cd ../Clojure
+l
+cd console
+l
+lein repl
+cd Code
+mkdir ClojureScript
+cd Clojure
+cd ../ClojureScript
+lein new figwheel hello-world
+cd hello-world
+lein figwheel
+cd Code
+cd python
+l
+cd Pycharm_Projects
+l
+charm Python_Practice
+l
+l
+cd Python_Practice
+l
+cd webapp
+l
+cd Code/Elixir/phoenix
+cd 
+l
+curl -fsSL https://raw.githubusercontent.com/supermarin/Alcatraz/deploy/Scripts/install.sh | sh
+cd Code/python
+l
+cd fundamentals
+l
+..
+l
+cd Pycharm_Projects
+l
+cd Python_Practice
+l
+cd triangle
+l
+vim triangle.py
+cd
+cd Code/Clojure
+l
+git clone git://github.com/functional-koans/clojure-koans.git
+ls
+cd clojure-koans
+l
+cat README.md
+c
+lein koan run
+l
+vim src/koans/01_equalities.clj
+l
+cd ..
+cd wonderland
+lein repl
+l
+l
+cd Code
+l
+cd Javascript
+l
+cd Triangle_site
+l
+mvim .
+..
+l
+xcode-select -p
+cd src
+l
+rm -rf XVim
+git clone git@github.com:XVimProject/XVim.git\
+\
+
+cd XVim
+make
+touch ~/.dotfiles/configs/xvimrc
+vim ~/.dotfiles/bootstap/symlink.sh
+cd
+l
+ln -sf /Users/VoxAir/.dotfiles/configs/xvimrc /Users/VoxAir/.xvimrc
+l
+vim .xvimrc
+cd src
+gcl https://github.com/thesecretlab/LearningSwift1Ed.git
+cd LearningSwift1Ed
+l
+cd Design
+	l
+cd Icon\ Source
+l
+..
+l
+cd Scaled\ Icons
+l
+cd OS\ X
+l
+open .
+cd Code
+cd Javascript
+l
+mkdir -p meadowlark/site
+cd meadowlark/site
+npm init
+npm install --save express
+l
+vim .gitignore
+touch meadowlark.js
+vim package.json
+vim meadowlark.js
+vim ~/.dotfiles/vim-files/plugin-settings/appearance.vim
+vim meadowlark.js
+node meadowlark.js
+node meadowlark.js
+node meadowlark.js
+node meadowlark.js
+node meadowlark.js
+node meadowlark.js
+ls
+mkdir public
+mkdir public/img
+mkdir public/img
+ls public/img
+node meadowlark.js
+atom-beta
+storm .
+npm install --save express3-handlebars
+mkdir -p views/layouts
+cd
+cd Code/Clojurec
+cd Code/Clojure/console
+lein repl
+lein repl
+lein repl
+lein repl
+lein repl
+cd
+mkdir Developer
+cd Developer
+mkdir rails
+gem install rails -v 5.0.0rc1
+ruby -v
+gem install rails
+rails -v
+rails
+cd rails
+rails new toy_app
+cd toy_app
+vim Gemfile
+bundle install --without production
+ls
+l
+l
+c
+l
+git init
+git add -A
+git commit -m "Initialize Repository"
+git remote add origin https://HBurks@bitbucket.org/HBurks/rails_tutorial_toy_app.git
+git push -u origin --all
+git status
+mvim .
+cd Code/Clojure
+	l
+cd console
+lein repl
+l
+cd ~/src
+gcl https://github.com/jdkanani/vim-material-theme.git
+ls
+cd vim-material-theme
+l
+cd colors
+l
+cp material-theme.vim ~/.vim/colors/
+cat ../README.md

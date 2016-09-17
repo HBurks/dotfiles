@@ -1,3 +1,9 @@
 [submodule "zsh-shell/pure"]
 	path = zsh-shell/pure
 	url = https://github.com/sindresorhus/pure.git
+[submodule "vim-files/vim/bundle/command-t"]
+	path = vim-files/vim/bundle/command-t
+	url = https://github.com/wincent/command-t.git
+[submodule "vim-files/vim/bundle/dracula-theme"]
+	path = vim-files/vim/bundle/dracula-theme
+	url = git@github.com:dracula/vim.git

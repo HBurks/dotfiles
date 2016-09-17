@@ -1,0 +1,59 @@
+#~~~~~~ All Available Menu Items ~~~~~~#
+
+global.keybinding.menuitem.file.new = @-a
+global.keybinding.menuitem.file.new-tab = @-$-a
+#global.keybinding.menuitem.file.open
+global.keybinding.menuitem.file.open-in-tab = @-$-t
+#global.keybinding.menuitem.file.open-quickly
+#global.keybinding.menuitem.file.close
+#global.keybinding.menuitem.file.save
+global.keybinding.menuitem.file.save-as = @-$-s
+#global.keybinding.menuitem.file.revert-to-saved
+#global.keybinding.menuitem.edit.undo
+#global.keybinding.menuitem.edit.redo
+#global.keybinding.menuitem.edit.cut
+#global.keybinding.menuitem.edit.copy
+#global.keybinding.menuitem.edit.paste
+#global.keybinding.menuitem.edit.delete
+#global.keybinding.menuitem.edit.select-all
+global.keybinding.menuitem.view.focus-file-browser = ~-@-j
+global.keybinding.menuitem.view.focus-text-area = ~-@-k
+global.keybinding.menuitem.view.show-file-browser = ^-~-@
+#global.keybinding.menuitem.view.put-file-browser-on-right
+#global.keybinding.menuitem.view.show-status-bar
+#global.keybinding.menuitem.view.font.show-fonts
+#global.keybinding.menuitem.view.font.bigger
+#global.keybinding.menuitem.view.font.smaller
+global.keybinding.menuitem.view.enter-full-screen = @-$-m
+#global.keybinding.menuitem.navigate.show-folders-first
+global.keybinding.menuitem.navigate.show-hidden-files = @-$-h
+global.keybinding.menuitem.navigate.sync-vim-pwd = @-$-r
+#global.keybinding.menuitem.preview.show-preview
+#global.keybinding.menuitem.preview.refresh
+#global.keybinding.menuitem.window.minimize
+#global.keybinding.menuitem.window.zoom
+global.keybinding.menuitem.window.select-next-tab = @-`
+global.keybinding.menuitem.window.select-previous-tab = @-$-`
+#global.keybinding.menuitem.window.bring-all-to-front
+#global.keybinding.menuitem.help.vimr-help
+
+
+#~~~~~~ available Modifiers ~~~~~~#
+
+#@ for Command
+#~ for Option
+#^ for Control
+#$ for Shift
+
+#~~~~~~ Select the n-th tab Settings ~~~~~~#
+
+global.keybinding.select-nth-tab.active = true
+global.keybinding.select-nth-tab.modifier = @-$
+
+
+#~~~~~~ Example ~~~~~~#
+
+#global.keybinding.menuitem.file.new = @-a
+#global.keybinding.menuitem.file.open-in-tab = @-$-a
+#global.keybinding.menuitem.file.save-as =
+

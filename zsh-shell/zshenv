@@ -2,3 +2,15 @@
 fpath=( "$HOME/.dotfiles/zsh-shell/zfunctions" $fpath )
 export GOPATH=$HOME/go
 export DOTS=$HOME/.dotfiles
+export ANDROID_HOME=/usr/local/Cellar/android-sdk/24.4.1_1/
+export JAVA_HOME=$(/usr/libexec/java_home)
+
+
+
+
+# Add GHC 7.10.3 to the PATH, via https://ghcformacosx.github.io/
+export GHC_DOT_APP="/Applications/ghc-7.10.3.app"
+if [ -d "$GHC_DOT_APP" ]; then
+  export PATH="${HOME}/.local/bin:${HOME}/.cabal/bin:${GHC_DOT_APP}/Contents/bin:${PATH}"
+fi
+

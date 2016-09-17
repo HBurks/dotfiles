@@ -39,7 +39,7 @@ let g:go_highlight_operators = 1
 let g:go_highlight_build_constraints = 1
 "Enable goimports to automatically insert import paths instead of gofmt:
 
-"let g:go_fmt_command = "goimports"
+"let g:go_fmt_command = \"goimports"
 "By default vim-go shows errors for the fmt command, to disable it:
 
 let g:go_fmt_fail_silently = 1

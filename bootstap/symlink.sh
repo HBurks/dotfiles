@@ -5,6 +5,8 @@ function doIt() {
 
 	# Symlink any vim files to home folder
 	ln -sf ~/.dotfiles/vim-files/vimrc ~/.vimrc
+    # Symlink Xvim file for Xcode vim plugin
+    ln -sf ~/.dotfiles/configs/xvimrc ~/.xvimrc
 
 	# Do the same for zsh shell config files
 	ln -sf ~/.dotfiles/zsh-shell/zprofile ~/.zprofile

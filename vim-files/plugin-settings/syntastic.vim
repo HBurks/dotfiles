@@ -12,15 +12,15 @@ let g:syntastic_check_on_wq = 0
 
 " Elixir Checker
 
-let g:syntastic_enable_elixir_checker = 1
+"let g:syntastic_enable_elixir_checker = 1
 "
 "g:syntastic_elixir_checkers
 
 let g:syntastic_python_python_exec = '/usr/local/bin/python3'
 
-let g:syntastic_aggregate_errors = 1
+"let g:syntastic_aggregate_errors = 1
 
-let g:elm_syntastic_show_warnings = 1
+"let g:elm_syntastic_show_warnings = 1
 
 "" Better :sign interface symbols
 

@@ -1,5 +1,6 @@
+set noshowmode
 let g:lightline = {
-			\ 'colorscheme': 'solarized',
+			\ 'colorscheme': 'wombat',
 			\ 'active': {
 			\   'left': [ [ 'mode', 'paste' ],
 			\             [ 'fugitive', 'readonly', 'filename', 'modified' ] ]

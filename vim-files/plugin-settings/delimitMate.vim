@@ -19,7 +19,7 @@ let delimitMate_jump_expansion = 1
 "This option turns on/off the expansion of <CR>. Read |delimitMateExpansion|
 "for details. NOTE This feature requires that 'backspace' is either set to 2
 "or
-"has "eol" and "start" as part of its value.
+"has \"eol" and \"start" as part of its value.
 
 let delimitMate_expand_cr = 1
 
