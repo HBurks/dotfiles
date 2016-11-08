@@ -4,7 +4,7 @@ export GOPATH=$HOME/go
 export DOTS=$HOME/.dotfiles
 export ANDROID_HOME=/usr/local/Cellar/android-sdk/24.4.1_1/
 export JAVA_HOME=$(/usr/libexec/java_home)
-
+export LANG=en_US.UTF-8
 
 
 

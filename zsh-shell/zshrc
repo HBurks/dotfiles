@@ -2,7 +2,7 @@ autoload -U promptinit && promptinit
 prompt pure
 source <(antibody init)
 
-BASE16_SHELL="$HOME/.config/base16-shell/base16-harmonic16.dark.sh"
+BASE16_SHELL="$HOME/.config/base16-shell/base16-eighties.dark.sh"
 [[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
 
 #antibody bundle veelenga/crystal-zsh
@@ -47,6 +47,7 @@ if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
  #Base16 Shell
  #BASE16_SHELL="$HOME/.config/base16-shell/base16-eighties.dark.sh"
  #[[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
+ #source /usr/local/share/zsh-navigation-tools/zsh-navigation-tools.plugin.zsh
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
@@ -56,3 +57,5 @@ if [ -f /Users/VoxAir/.tnsrc ]; then
     source /Users/VoxAir/.tnsrc 
 fi
 ###-tns-completion-end-###
+
+source ~/.zshenv

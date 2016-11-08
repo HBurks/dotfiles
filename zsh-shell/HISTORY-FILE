@@ -3694,3 +3694,2533 @@ cd colors
 l
 cp material-theme.vim ~/.vim/colors/
 cat ../README.md
+cd
+cd .dotfiles
+git status
+git add -A
+git status
+git add -A
+git commit -m "newest config changes including vim"
+git push 
+git status
+l
+cd vim-files/plugin-settings
+l
+wd
+vim commandT.vim
+git add commandT.vim
+git status
+vim ~/.vimrc
+git add -A
+git status
+vim commandT.vim
+source ~/.vimrc
+c
+l
+vim commandT.vim
+vim commandT.vim
+vim commandT.vim
+vim ~/.vimrc
+c
+l
+lein repl
+..
+lein new compojure my-example-website
+l
+cd my-example-website
+vim project.clj
+mvim .
+c
+lein deps
+lein ring server
+npm i -g re-natal
+..
+rm -rf my-example-website
+cd ~/Library/Application\ Support/Sublime\ Text\ 3
+l
+cd Installed\ Packages
+l
+..
+ls
+cd Packages
+l
+cd tern_for_sublime
+ls
+npm install 
+cat README.md
+c
+subl
+subl
+vim ~/.tern-config
+vim ~/.tern-config
+cat ~/.tern-config
+ls -a ~/
+rm -rf ~/.tern-config
+vim ~/.tern-config
+subl
+c
+cd
+cd
+cd Code/Clojure
+	l
+cd console
+c
+l
+lein repl
+vim src/console/core.clj
+bpython
+c
+cd Code/python
+l
+cd fundamentals
+l
+mvim .
+l
+c
+l
+cd Sites
+l
+rm -rf Portfolio
+express
+expres
+express
+c
+express-generator
+cd ~/src
+gcl https://github.com/reagent-project/reagent.git
+l
+cd reagent
+l
+cd examples
+l
+cd simple
+lein figwheel
+l
+cd
+cd Developer
+l
+mkdir meteor
+cd meteor
+meteor create simple-todos
+cd simple-todos
+meteor npm install --save react react-dom
+gem install padrino
+padrino
+padrino -h
+padrino --help
+padrino help
+pradrino help generate
+padrino help generate
+cd..
+..
+..
+mkdir padrino
+cd padrino
+padrino generate claimsRb
+padrino generate project claimsRb -e haml
+cd claimsRb
+bundle --binstubs
+l
+padrino 
+padrino s
+vim .
+padrino
+padrino g --help
+cd Developer
+l
+mkdir Sinatra
+cd Sinatra
+mkdir Potato
+ls
+cd Potato
+touch app.rb
+ruby app.rb
+l
+mkdir public 
+mkdir views
+gem install haml
+ruby app.rb
+ruby app.rb
+\
+\
+
+..
+gcl https://github.com/HBurks/sinatra-template.git
+cd sinatra-template
+rbenv install
+cd 
+cd .vim/bundle
+git clone git://github.com/tpope/vim-eunuch.git\
+
+l
+git clone git://github.com/tpope/vim-commentary.git\
+
+vim ~/.vimrc
+cd ..
+l
+cd ..
+l
+cd Angular
+l
+git clone --depth 1 https://github.com/angularclass/angular2-seed.git\
+
+l
+cd angular2-seed
+npm install
+npm start
+npm install -g webpack-dev-server
+c
+cd ..
+l
+cd ../Developer
+l
+..
+cd Code
+l
+cd Javascript
+l
+cd meadowlark
+l
+ls
+mvim .
+cd site
+vim .
+l
+cd Code
+l
+cd Clojure
+l
+l
+cd console
+l
+lein repl
+vim src/console/core.clj 
+lein repl
+lein repl
+brew tap d12frosted/emacs-plus
+brew doctor
+brew tap d12frosted/emacs-plus
+brew install emacs-plus --with-cocoa --with-gnutls --with-librsvg --with-imagemagick --with-spacemacs-icon
+find emacs
+l
+cd .dotfiles/configs/
+rm -rf emacs.d
+l ~/
+rm -rf ~/.emacs.d
+l
+brew linkapps
+git clone https://github.com/syl20bnr/spacemacs ~/.dotfiles/configs/.emacs.d
+ln -sf /Users/VoxAir/.dotfiles/configs/.emacs.d /Users/VoxAir/.emacs.d
+emacs
+emacs-24.5
+cd Developer
+l
+mkdir VueJS
+cd VueJS
+l
+mkdir claims
+cd claims
+npm install -g vue-cli
+vue
+vue list
+..
+l
+rn claims
+rm -rf claims
+vue 
+vue init webpack-simple
+vue init webpack-simple claims
+l
+cd claims
+l
+cat README.md
+npm install 
+nnpm run dev
+npm run dev
+npm run
+npm run dev
+l
+vim npm-debug.log
+l
+vim webpack.config.js
+npm install -g vue-loader
+l
+..
+rm -rf claims
+l
+vue init browserify-simple#1.0 claims
+l
+cd claims
+l
+cat README.md
+npm -v
+node -v
+nvm 
+nvm ls
+nvm install
+nvm install node
+npm -v
+nvm alias nodev6.6.0 updated
+nvm alias updated nodev6.6.0
+node -v
+l
+npm install
+dddl
+l
+npm run dev
+l
+cd src
+l
+mkdir componenets
+l
+mv App.vue componenets
+mv ClaimList.vue componenets/
+l
+vim main.js
+l
+..
+l
+vim index.html
+npm run dev
+l
+l src
+mv src/componenets src/components
+l src/components
+mvim .
+npm run dev
+..
+rm -rf claims
+vue init browserify claims
+vue
+npm
+npm install -g vue-cli
+vue init browserify claims
+cd claims
+npm install
+ls
+mvim .
+subl .
+l
+vim .babelrc
+l
+l dist
+vim dist/build.js
+l
+vim package.json
+l
+c
+cd Code/Clojure/console
+l
+lein repl
+cd Developer
+;
+l
+cd VueJS
+l
+cd claims
+l
+ls
+..
+l
+..
+mkdir Swift
+sudo codesign -f -s HunterBurks /Applications/Xcode.app
+cd ~/Sites
+cd ~/src
+l
+rm -rf XVim
+gcl https://github.com/XVimProject/XVim.git
+git branch
+cd XVim
+git branch
+xcode-select -p
+make
+make
+l
+brew up
+cd Developer
+l
+cd JS
+mkdir Javascript-es6
+cd Javascript-es6
+mkdir js-project
+cd js-project
+npm init
+npm install --save-dev babel-cli
+npm - -g node-pre-gyp
+npm i -g node-pre-gyp
+npm rm --global gulp
+node -v
+npm -v
+node
+nvm
+nvm alias default 6.6.0
+node -v
+nvm use default
+npm rm --global gulp
+npm i --save-dev gulp-cli 
+rm -rf node_modules
+l
+vim package.json
+l
+npm install --global gulp-cli
+cat package.json
+npm - --save-dev gulp
+npm i --save-dev gulp
+vim gulpfile.js
+npm i --save dev gulp-babel gulp-sourcemaps gulp-concat
+npm i --save-dev gulp-babel gulp-sourcemaps gulp-concat
+vim .babelrc
+npm install --save-dev babel-preset-es2015
+cat package.json
+mkdir src
+mkdir dist
+touch app.js
+vim package.json
+m
+npm install -g create-react-app
+..
+..
+mkdir React
+cd RE
+cd React
+create-react-app react-project
+cd react-project
+npm start
+subl .
+;
+;
+l
+ll
+vim test.go
+vim test.py
+cd Developer
+l
+cd Javascript-es6
+l
+rm -rf js-project
+c
+mkdir js-project
+cd js-project
+npm init
+c
+l
+npm install --save-dev gulp
+vim gulpfile.js
+c
+mkdir es6
+mkdir dist
+mkdir public
+mkdir public/es6
+mkdir public/dist
+npm install --save-dev babel-preset-es2015
+l
+vim .babelrc
+l
+npm install --save-dev gulpt-babel
+npm install --save-dev gulp-babel
+c
+vim gulpfile.js
+npm install -g eslint
+eslint --init
+l
+l
+l
+ll
+l
+l
+l
+cd Developer/Javascript-es6/js-project
+l
+gulp
+vim gulpfile.js
+c
+touch es6/test.js
+vim es6/test.js
+vim public/index.html
+l
+mv es6/test.js public/es6/test.js
+vim public/es6/test.js
+vim public/index.html
+ll
+cd public
+l
+//
+..
+gulp
+npm install --save-dev gulp-eslint
+gulp
+vim gulpfile.js
+gulp
+vim public/es6/test.js public/es6/test.js
+gulp
+vim public/es6/test.js public/es6/test.js
+express
+npm install -g express-generator
+express
+c
+cd Developer/
+mkdir Express
+l
+mkdir Express
+cd Express
+l
+express -h
+..
+cd padrino
+l
+rm -rf
+l
+rm -rf claimsRb
+c
+padrino g project portfolio --renderer haml --stylesheet sass --script jquery
+cd ./portfolio
+bundle --binstubs
+l
+ll
+rake
+padrino
+padrino start
+mvim .
+cd ..
+..
+mkdir FrontEnd
+cd FrontEnd
+mkdir Ottergram
+touch index.html
+mkdir stylesheets
+touch stylesheets/styles.css
+subl .
+l
+mv index.html Ottergram
+mv stylesheets Ottergram
+l
+cd Ottergram
+subl .
+npm install -g browser-sync
+browser-sync start --server --browser "Google Chrome" --files "stylesheets/*.css, *.html"
+cd Developer
+l
+cd Express
+l
+mkdir library
+cd library
+npm init
+vim package.json
+npm install --save express
+mkdir src
+mkdir public
+mkdir src/views
+touch app.js
+vim app.js
+l
+mv ~/Downloads/.bowerrc .bowerrc
+l
+bower install --save bootstrap
+npm -g bower
+npm i -g bower
+cd
+cd Downloads
+l
+touch .bowerrc
+vim .bowerrc
+l
+bk
+bk
+cd Developer/Express
+l
+mux
+bk
+cd Developer/Express/library
+gulp
+gulp style
+gulp inject
+gulp wiredep --verbose
+gup inject --verbose
+gulp inject --verbose
+npm start
+l
+cat npm-debug.log
+l
+npm install
+node app.js
+l
+wd
+sudo wd
+vi
+vim app.js
+npm start
+..
+express
+mkdir claims
+cd claims
+l
+express --help
+cd ..
+..
+mkdir ClojureScript
+cd ClojureScript
+lein new reagent claims +sass +cider + spec
+l
+lein new reagent claims +sass +cider +spec
+l
+cd claims
+l
+mvim .
+lein figwheel
+cd Developer/Express/library
+l
+rm -rf node_modules
+npm install
+npm start
+Q
+quit
+exit
+mux
+c
+cat
+cd Developer/padrino
+l
+padrino g project sample_blog_updated -t rspec -e haml -c scss -s jquery -d activerecord -b
+cd ./sample_blog_updated
+l
+mux
+l
+cd Developer/React
+l
+mkdir reactbook
+mv react-15.3.2 reactbook/react
+cd reactbook
+l
+touch index.html
+vim index.html
+l
+pwd
+brew up
+brew info googler
+brew info nim
+brew info zsh-naviagtion-tools
+brew info zsh-navigtion-tools
+brew info zsh-navigation-tools
+brew info zshdb
+brew info zsh-lovers
+brew install zsh-navigation-tools 
+l
+l ~
+source ~/.zshrc
+c
+l
+vim index.html
+vim ~/.zshrc
+source ~/.zshrc
+l
+l ~
+l
+vim ~/.zshrc
+source ~/.zshrc
+ls
+brew install zshdb
+ll
+cd Developer/Express/claims
+l
+express -help
+express claims --css sass --git
+cd claims
+l
+..
+mv claims ../Claims
+mv claims ../bbr_claims
+l
+..
+l
+rm -rf claims
+cd bbr_claims
+l
+npm install
+cd 
+l
+bk
+l
+vim app.js
+nodemon 
+npm i -g nodemon
+cat package.json
+nodemon start
+l
+mv public/bootstrap-3.3.7-dist public/bootstrap
+ranger
+l
+git init
+git add -A
+git commit -m "Initial Commit"
+cd
+pbcopy < ~/.ssh/id_rsa.pub
+ssh-keygen -t rsa -b 4096 -C "clarity.devel@gmail.com"
+ssh-keygen -t rsa -b 4096 -C "clarity.devel@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+pbcopy < ~/.ssh/id_rsa.pub
+bk
+git remote
+git help remote
+git remote add master https://github.com/HBurks/claims
+git push
+git push master
+git push --set-upstream master master
+git pull
+l
+cd .git
+l
+vim config
+..
+rm -rf .git
+git init
+git add .
+ git commit -m "initial commit"
+git remote add origin https://github.com/HBurks/claims.git
+git remote -v
+git push -U origin master
+git push -u origin master
+git pull
+git pull origin master
+git push -u origin master
+git status
+l
+c
+l
+ranger
+npm install mongodb --save
+brew install Docker
+docker
+brew linkapps
+brew uninstall docker
+docker
+ranger
+ranger
+..
+rm -rf bbr_claims
+.
+l
+express claims --git 
+cd claims && npm install
+nodemon start
+nodemon start
+echo $storm
+mv ~/Downloads/apiKey-5FY7B79HGYAIMM1CZ4RZI6AJR.properties ~/.stormpath/apiKey.properties
+mkdir ~/.stormpath
+mv ~/Downloads/apiKey-5FY7B79HGYAIMM1CZ4RZI6AJR.properties ~/.stormpath/apiKey.properties
+chmod go-rwx ~/.stormpath/apiKey.properties
+nodemon start
+vim app.js
+nodemon start
+ranger
+vim views/layout.jade
+nodemon start
+npm start
+cd
+cd Developer/rails/
+l
+rails -v
+rails --help
+rails new claims
+cd claims
+bundle install
+l
+ranger
+ranger
+npm install express-stormpath
+npm uninstall express-stormpath
+npm uninstall express-stormpath --save
+npm install express-stormpath --save
+export STORMPATH_CLIENT_APIKEY_ID=37RDZAZADBT29PBBIMSTB9YCS\
+
+export STORMPATH_CLIENT_APIKEY_SECRET=KoZxZKmS5SVUIf8Z590+lFIQcQeeyTmoxW1yIeQQMXk\
+
+export STORMPATH_APPLICATION_HREF=https://api.stormpath.com/v1/applications/6AMx7ozUBdWzUZQld5U7A8\
+
+nger
+ranger
+c
+mux
+cd ..
+cd ..
+cd React
+l
+cd reactbook
+l
+vim index.html
+l
+vim index.html
+l
+l
+vim index.html
+ls ~/.vim/bundle
+cd ~/.vim/bundle
+gcl https://github.com/vim-ruby/vim-ruby.git
+\
+vim ~/.vimrc
+vim ~/.dotfiles/vim-files/plugin-settings/ruby.vim
+gcl https://github.com/tpope/vim-rails.git
+git clone git://github.com/tpope/vim-bundler.git\
+
+git clone git://github.com/majutsushi/tagbar
+brew install ctags
+vim ~/.ctags
+vim ~/.vimrc
+rails g model user
+rails g controller users new
+l
+vim db/migrate/20161008011051_create_users.rb
+rake db:create
+rake db:migrate
+ranger
+bundle install
+vi Gemfile
+bundle install
+ranger
+..
+cd claims
+c
+gem install mysql12
+gem install mysql2
+l
+lsof -i tcp:3000 \
+
+kill -9 71916
+lsof -i tcp:3000 \
+
+gem install haml
+l
+rm -rf claims
+rails new claims -d mysql
+l
+cd claims
+l
+vim config
+c
+cd ~/src
+l
+gcl https://github.com/chriskempson/tomorrow-theme.git
+cd tomorrow-theme
+l
+cd 
+cd ~/Developer/rails/blog
+l
+bundle install
+gem install eventmachine -v '1.0.3'
+bundle install
+rake db:create
+rake db:migrate
+bundle install
+vim app/assets/stylesheets/application.css
+mv app/assets/stylesheets/application.css app/assets/stylesheets/application.scss
+vim app/assets/javascripts/application.js
+vim app/assets/stylesheets/application.scss
+rails s
+c
+vim Gemfile
+vim config/environments/development.rb
+bundle install
+guard init livereload
+bundle exec guard
+c
+bundle install
+mine .
+c
+rake db:migrate
+rails g scaffold Claim name:string active:boolean address:text jobid:integer:uniq details:text
+rake db:migrate
+ranger
+gem install guard-liverelaod
+gem install guard-livereload
+ranger
+rails generate model user name email password_digest
+ranger
+rails s
+rails s
+rails s
+rails g controller home index
+vim config/routes.rb
+c
+bundle exec guard
+bundle install
+bundle exec guard
+mv app/assets/stylesheets/application.css app/assets/stylesheets/application.scss
+..
+cd claims
+ranger
+ranger
+c
+..
+cd claims/
+rails s --port 4040
+..
+cd claims
+vim config
+cd ..
+cd bbr_claims
+l
+l
+l
+mine .
+ruby --v
+ruby -v
+l
+cd app/assets
+vim stylesheets/application.scss
+ranger
+rails g controller home index
+vim config/routes.rb
+rails g model User
+rails g model Job
+rake db:migrate
+cd ..
+cd claims
+vim Gemfile
+rails s
+cd Developer/Rails
+l
+rails new maria -d mysql
+cd maria
+l
+ranger
+rake db:create
+rails s
+rails s
+rails s
+..
+cd claims
+l
+c
+cd
+bk
+mux
+=c
+c
+..
+rails new bbr_claims
+cd bbr_claims
+vim Gemfile
+bundle install
+vim Gemfile
+mux
+cd Developer/rails/bbr_admin
+bundle exec guard
+bundle exec guard
+bundle exec guard
+l
+c
+l
+cd Developer/rails/bbr_admin
+l
+c
+l
+vim app-notes.md
+rails s
+pkill -15 59013
+killall --help
+kill
+kill 59013
+rails s
+which guard
+mux
+/Volumes/fat/.Spotlight-V100/Store-V2/9837119D-4268-4ACD-B120-F98D5E290490/permStore ; exit;
+cd Developer/ClojureScript
+l
+lein new mies testing
+l
+cd testing
+cat README.md
+lein npm install
+brew install rlwrap
+vim src/testing/core.cljs
+./scripts/watch
+brew up
+brew info commandbox
+brew info evinc
+brew info evince
+brew info x265
+brew info micro
+go
+c
+~/.vim/bundle
+cd ~/.vim/bundle
+l
+mvim
+cp ~/.dotfiles/vim-files/plugin-settings/lightline.vim ~/Archive/lightline.vim.backup
+mvim
+....
+cd Developer/
+cd rails/bbr_admin
+l
+git status
+git commit -m "dashboard and home view"
+git status
+git add -A
+git commit -m "dashboard and home imgs"
+git stat
+gs
+ga
+mvim .
+./scripts/brepl
+./scripts/build
+./scripts/brepl
+,,
+..
+..
+l
+mkdir Ruby
+cd Ruby
+mkdir bbr_admin
+cd bbr_admin
+l
+touch employee.rb
+touch job.rb
+touch app.rb
+touch time.rb
+mux
+l
+rm -rf test.c test.js test.py test.pyc
+l
+mv music.md Archive/
+rm test.go 
+c
+mux
+ll
+ll
+l
+c
+ll
+..
+cd bbr_admin
+l
+vim Gemfile
+l
+ranger
+l
+c
+cd Developer/
+cd rails
+l
+cd bbr_admin
+l
+c
+l
+vim Gemfile
+bundle install
+rails g rspec:install
+l
+git add -
+agit add -A 
+git add -A
+git commit -m "add rspec"
+..
+rails new BBR_TimeTrack
+l
+cd BBR_TimeTrack
+l
+vim Gemfile
+bundle install
+vim config/environments/development.rb
+bundle exec guard init Live-Reload
+l
+vim Guardfile
+rm Guardfile
+mv ../bbr_admin/Guardfile Guardfile
+vim Guardfile
+l
+c
+l
+vim README.md
+ranger
+l
+cd library
+l
+bower install --save bootstrap
+bower init
+l
+subl
+subl .
+npm start
+bower install --save font-awesome
+npm install --save-dev gulp
+touch gulpfile.js
+npm install --save gulp-jshint
+npmo
+npm uninstall --save jshint
+npm uninstall --save gulp-jshint
+npm install --save-dev gulp-jshint
+npm install -g jshint
+npm install --save-dev gulp-jscs jshint-stylish
+gulp style
+jshint
+npm install -g jshint
+gulp style
+npm install --save-dev jshint
+gulp style
+jscs
+npm install -g jscs
+jscs init
+jscs
+jscs --init
+jscs -c
+touch .jscsrc
+touch .jshintrc
+gulp style
+gulp style
+bpm install -g wiredep
+npm install -g wiredep
+gulp inject
+npm install --save-dev wiredep
+gulp inject
+gulp inject
+gulp inject
+mvim .
+gulp inject
+padrino g admin
+bundler install --binstubs
+admin
+padrino g admin
+bundle
+bundle exec rake db:migrate
+bundle exec rake db:create
+bundle exec rake db:migrate
+bundle exec rake db:seed
+padrino s
+npm start
+cd library
+npm start
+npm install --save-dev gulp-inject
+cd ..
+https://gitlab.com/john_fisherman/pluralshight-library-node-express.git
+git clone https://gitlab.com/john_fisherman/pluralshight-library-node-express.git
+ranger
+guard init livereload
+bundle install
+ranger
+bundle exec guard
+..
+cd bbr_admin
+git init
+git add -A
+git commit -m "Initial commit set up livereload and MDL css"
+bundle exec guard
+guard exec
+bundle exec guard
+cd config
+l
+vim environments/development.rb
+..
+bundle exec guard
+l
+ranger
+..
+cd bbr_admin
+l
+rails s
+rails s
+cd
+$ curl get.pow.cx | sh
+curl get.pow.cx | sh
+rails -s
+..
+..
+cd rails/bbr_admin
+l
+rails s
+c
+..
+l
+mkdir testing
+cd testing
+vim test_something.rb
+padrino g model post title:string body:text
+padrino rake ar:migrate
+padrino g controller posts get:index get:show
+padrino g admin_page post
+padrino g migration AddAccountToPost account_id:integer
+..
+..
+cd rails/bbr_admin
+bundle exec guard
+rbenv 
+ruby -v
+ip
+ip addr
+ipaddr
+ifconfig
+mine .
+c
+ranger
+bundle exec guard
+..
+..
+cd rails/bbr_admin
+bundle exec guard
+bundle exec guard
+pry
+bundle install
+bundle exec guard
+c
+c
+pkill -15 90955
+rails s
+kill -15 90955
+rails s
+rails s
+..
+rails new bbr_admin
+cd bbr_admin
+l
+rm -rf Gemfile
+rm -rf Gemfile.lock
+cp ../bbr_claims/Gemfile Gemfile
+l
+cp ../bbr_claims/Gemfile.lock Gemfile.lock
+cp ../bbr_claims/Guardfile Guardfile
+bundle update
+bundle install
+cd app/assets/stylesheets
+mv application.css application.scss
+vim application.scss 
+l
+..
+vim javascripts/application.js
+..
+..
+vim Gemfile
+bundle
+vim Gemfile
+bundle install
+c
+cd app/assets/javascripts/
+l
+vim application.js
+....
+rails g controller Home index
+mine .
+rails g model Project
+git status
+git commit -m "idea folder and home#index"
+git status
+git status
+git add -A
+git status
+git commit -m "idea folder and home#index\
+"
+rails g model Employee
+git add -A
+git commit -m "Employee model"
+git status
+vim .tmux
+l
+cd Developer/Ruby
+l
+cd testing
+l
+l
+c
+l
+l
+ls
+l ~
+l
+l
+l
+l
+c
+l
+local -a
+stty
+vim -T
+vim ~/.zshenv
+source ~/.zshenv
+vim app.rb
+\
+    git clone https://github.com/ryanoasis/vim-devicons ~/.vim/bundle/vim-devicons\
+
+\
+\
+\
+
+../../
+cd ..
+..
+cd rails
+cd bbr_admin
+ifconfig
+whoami
+brew cask search ngro
+brew cask install ngrok
+ngrok
+ngrok http 8080
+ngrok http 3000
+ngrok --help
+ngrok http 4567
+ngrok
+c
+l
+c
+rails s --help
+rails s -d
+rails s
+rails -p 4567
+rails s -p 4567
+mine
+l
+pry
+gem install rb-readline
+pry
+rbenv
+rbenv ls
+rbenv which
+rbenv which shell
+rbenv global
+rbenv install
+rbenv -l
+rbenv install -l
+rbenv install 2.3.0 --with-readline
+rbenv install 2.3.0 -p --with-readline
+e
+..
+..
+cd rails
+l
+cd bbr_admin
+l
+l
+irssi
+brew search irssi
+brew install irssi
+brew install boot-clj
+l
+vim employee.rb
+..
+..
+cd rails
+l
+cd bbr_admin
+l
+l
+ranger
+c
+cc
+..
+cd testing
+l
+ruby test_something.rb
+..
+cd bbr_admin
+l
+ranger
+cd Developer
+l
+cd rails/BBR_TimeTrack
+l
+git init
+git commit -m "initial commit"
+git remote add origin https://github.com/HBurks/BBR_TimeTrack.git
+git push -u origin master
+git add -A
+git commit -m "new rails 5.0 with livereload"
+git push -u origin master
+vim Gemfile
+bundle install
+vim Gemfile
+bundle install
+rails generate devise:install
+vim config/environments/development.rb
+rails g controller Home index
+git add -A
+git status
+git commit -m "slim views and devise auth setup"
+git push
+rails db:create
+git add -A
+rails db:migrate
+git add -A
+git commit -m "created & migrated db"
+git push
+vim config/routes.rb
+rails s
+rails s
+bundle exec guard
+gem install rb-readline
+bundle exec guard
+brew install readline
+rbenv l
+rbenv
+rbenv shell
+rbenv global
+rbenv local
+rbenv versions
+rbenv uninstall 2.3.1
+rbenv versions
+rbenv uninstall 2.3.1
+rbenv versions
+RUBY_CONFIGURE_OPTS=--with-readline-dir=`brew --prefix readline` rbenv install 2.3.1
+rbenv global 2.3.1
+ruby -v
+rbenv local 2.3.1
+bundle exec guard
+gem install bundle
+bundle exec guard
+bundle install
+bundle exec guard
+mine
+rails g devise:views
+gem install html2slim\
+
+..
+erb2slim -d BBR_TimeTrack
+cd BBR_TimeTrack
+git add -A 
+git commit -m "erb2slim"
+git push
+rails g devise User
+rails g devise Admin
+rails db:migrate
+git add -A
+git commit -m "user and admin models"
+git push
+mux
+psql
+psql --version
+brew reinstall readline
+psql --version
+brew info postgresql
+brew uninstall postgresql
+psql
+ls /
+ls /tmp
+l
+cd /tmp
+l
+rm -rf .s.PGSQL.5432
+rm -rf .s.PGSQL.5432.lock
+l
+cd
+cd ~/Library/Application\ Support/Postgres/var-9.6/
+l
+cd Developer/rails/BBR_TimeTrack/
+l
+ranger
+ping -c www.google.com
+ping -c  5 www.google.com
+cd ~/Developer/rails/BBR_TimeTrack
+l
+vim .
+l
+ranger
+l
+c
+l
+c
+vim go/src/github.com/Carpe-Noctem1618/WebApp
+c
+vim ~/.vimrc
+python
+python3
+cd Developer
+l
+cd rails
+l
+mkdir rails-tutorial
+cd rails-tutorial
+rails new toyapp
+rails g scaffold User name:string email:string
+cd toyapp
+l
+rails g scaffold User name:string email:string
+rails s
+..
+cd..
+..
+cd rails5-book
+l
+cd guestbook
+rails s
+rails s
+rails db:migrate
+vim config/routes.rb
+rails generate scaffold Micropost content:text user_id:integer
+rails db:migrate
+rails console
+l
+vim app/models/micropost.rb
+vim app/models/user.rb
+l
+..
+..
+mkdir rails5-book
+cd rails5-book
+rails new guestbook
+cd guestbook/
+l
+l
+c
+l
+ls
+count
+len
+rails g controller entries sign_in
+c
+l
+ranger
+rails g model entry
+spring stop
+c
+ranger
+l
+mux
+cd Developer
+l
+cd rails
+l
+rm -rf BBR_TimeTrack
+rails new BBR_TimeTrack 
+cd BBR_TimeTrack
+rails g controller home index
+git init
+git add -A
+git commit -m "initial commit | home#index"
+gs
+lll
+l
+vim Gemfile
+vim Gemfile
+bi
+bi
+bundle install
+guard init livereload
+vim config/routes.rb
+git add -A
+git commit -m "LiveReload, Rspec, Slim-rails"
+ranger
+mine
+l
+cd
+l
+rm hours
+mux
+cd Developer/rails/BBR_TimeTrack
+l
+pkill 25581
+kill 25581
+bundle exec guard
+cd ..
+l
+cd toy_app
+l
+cd app/views
+l
+cd layouts
+l
+cp -rf application.html.erb ../../../../BBR_TimeTrack/app/views/layouts/application.html
+bk
+..
+..
+..
+cd BBR_TimeTrack/app/views/layouts
+l
+cd ../../../../toy_app/app/views/layouts
+l
+vim
+rails s
+rails s
+npm i -g jshint js-beautify
+brew install pt
+cd ~/.vim
+cd bundle
+l
+cd vim-go
+l
+less README.md
+l
+cd ftplugin
+l
+vim go.vim
+fd
+cd
+cd .emacs.d
+l
+l
+..
+l
+mv .spacemacs ~/.dotfiles/configs/spacemacs
+ln -sf /Users/VoxAir/.dotfiles/configs/spacemacs /Users/VoxAir/.spacemacs
+l
+cd .emacs.d
+l
+vim init.el
+mvim
+brew search wekea
+brew search weka
+brew cask install weka
+..
+..
+..
+cd go
+l
+lcd src
+l
+cd src
+l
+cd github.com
+l
+mkdir HBurks
+cd HBurks
+l
+gcl https://github.com/HBurks/going.git
+l
+cd going
+l
+rm -rf bin,pkg,src:\ command\ not\ found
+mkdir bin
+mkdir pkg
+mkdir src
+l
+git add -A
+git commit -m "go project setup"
+git push
+gs
+c
+l
+l
+rm -rf bin
+rm -rf pkg
+rm -rf src
+l
+git add -A
+git commit -m "restructure project"
+git push
+l
+mkdir cmd
+l
+touch going.go
+vim going.go
+vim ~/.vimrc
+vim ~/.vimrc
+vim going.go
+vim ~/.vimrc
+vim ~/.vimrc
+vim going.go
+c
+l
+bundle exec guard
+c
+cd Developer/rails/BBR_TimeTrack
+rails s
+mux
+..
+..
+cd Clojure
+l
+https://github.com/gigasquid/wonderland-clojure-katas.git
+gcl https://github.com/marshallshen/clojure-katas.git
+ghci
+ghc
+haskell
+cabal
+ghc
+ghci
+cabal
+vim ~/.zshenv
+source ~/.zshenv
+ghc
+vim ~/.zshenv
+l
+ghc
+ghci
+vim ~/.ghci
+cd Developer
+mkdir Haskell
+cd Haskell
+mkdir lyahfgg
+cd lyahfgg
+vim starting.hs
+mux
+	cd Developer/rails/BBR_TimeTrack
+l
+rails g controller users
+m
+pt
+pt _navigation
+	mux
+mux
+mux
+..
+vim dot.rb
+l
+vim Dotty
+vim Dotty.rb\~
+ruby Dotty
+ruby Dotty.rb\~
+mv Dotty.rb\~ dotty.rb
+vim dotty.rb
+l
+rm -rf Dotty.rb\~\~
+rm -rf dotty.rb\~
+l
+rm -rf .dotty.rb.un\~
+ruby dotty.rb
+ruby dotty.rb clone
+ruby dotty.rb --help clone
+c
+l
+l
+mv lib/Dotty.rbs lib/Dotty/Dotty.rb
+cd Developer/Ruby
+mkdir Gems
+cd Gems
+rbenv
+gem
+gem install ore
+l
+ore 
+mine
+l
+ore help install
+ore Dotty
+ore install
+mine -h
+mine Dotty
+l
+ls
+mine
+mine -h
+gem install thor 
+thor
+thor installed
+thor list
+thor new
+gem install commander
+ri
+comander
+commander
+commander --h
+commander --help
+commander init Dotty.rb
+l
+l
+vim Dotty.rb
+ruby Dotty.rb
+gem
+gem help commands
+l
+bundle gem
+bundle gem Dotty
+mv Dotty.rb Dotty/lib/Dotty.rbs
+l
+cd Dotty
+vim .
+l
+i
+l
+vim Dotty.gemspec
+cat README.md
+l
+bundle setup
+.bin/setup
+l
+l bin
+./bin/setup
+vim Dotty.gemspec
+bundle instal
+l
+bundle build
+bundle setup
+bundle 
+dotty
+Dotty
+./bin/console\~
+..
+mkdir dot
+cd dot
+mkdir lib
+mkdir spec
+mkdir lib/dot
+touch lib/dot/version.rb
+git init
+bundle help commands
+bundle help
+bundle init
+l
+vim Gemfile
+l
+bundle install
+vim dot.gemspec
+bundle install
+vim lib/dot/version.rb
+bundle install
+bundle install
+vim lib/dot/version.rb
+bundle install
+l
+vim .
+vim .
+l
+vim
+ruby lib/dotty
+ruby lib/dotty.rb
+ruby lib/dotty.rb
+pry lib/dotty.rb
+..
+rm -rf dotty/
+l
+mkdir dotty
+cd dotty
+mkdir lib
+mkdir spec
+vim lib/dotty.rb
+bundle init
+l
+vim Gemfile
+bundle
+l
+touch spec/dotty_spec.rb
+l
+l
+vim spec/dotty_spec.rb
+ranger
+bundle
+touch bin/dotty
+vim bin/dotty
+chmod +x bin/dotty
+ll
+bundle build
+bundle install
+dotty
+gem install
+gem install dotty
+l
+bundle install
+bundle show dottyt
+bundle show dotty
+ruby lib/dotty.rb
+ruby lib/dotty.rb
+ruby lib/dotty.rb
+bundler dotty
+bundler build
+bundle build
+l
+bundle
+l
+..
+l
+cd dotty
+l
+brw
+brew
+l
+rm -rf spec
+rspec init
+rspec --init
+rspec
+l
+pry
+l
+..
+cd dotty
+l
+pry
+l
+c
+cd Developer
+l
+cd Ruby/
+l
+rm -rf dotty
+rm -rf Gems
+l
+rm -rf bbr_admin
+l
+bundle dotty
+bundle gem dotty
+cd dotty
+l
+mkdir spec
+vim dotty.gemspec
+mux
+brew install --HEAD amiaopensource/amiaos/qctools\
+
+brew linkapps qtools
+brew linkapps qctools
+cl
+c
+l
+cd Developer/rails/BBR_TimeTrack
+l
+gs
+git addd -A 
+git add -A
+git commit -m "rubymine idea settings"
+vim config/environments/development.rb
+vim Gemfile
+c
+cd Developer/rails/BBR_TimeTrack
+l
+c
+rails s
+cd Developer/rails/BBR_TimeTrack
+cd Developer/rails/
+l
+cp -rf BBR_TimeTrack BBR_TimeTrack_Copy
+l
+l
+c
+l
+cd BBR_TimeTrack
+l
+l
+c
+l
+l
+l
+ranger
+c
+l
+c
+l
+c
+l
+kl
+l
+c
+l
+mine
+cd ~/Developer/rails/BBR_TimeTrack
+rails s
+rails s
+rails s
+rails s
+rails s
+bundle install
+bundle install
+rails s
+rails s
+cd Developer/rails/BBR_TimeTrack
+l
+c
+rails g model User
+rails db:migrate
+cd ~/.vim/bundle
+l
+gcl https://github.com/slim-template/vim-slim.git
+c
+gcl https://github.com/Yggdroot/indentLine.git
+bk
+cd Developer/rails/BBR_TimeTrack
+i
+mv app/assets/stylesheets/application.css app/assets/stylesheets/application.scss
+vim app/assets/stylesheets/application.scss
+vim Gemfile
+ll
+l
+ld
+cd Developer
+l
+cd rails/BBR_TimeTrack
+..
+cd bbr_admin
+l
+ranger
+bk
+cd BBR_TimeTrack
+c
+ranger
+l
+ghci
+cd ..
+cd ..
+l
+mkdir Clojure
+cd Clojure
+gcl https://github.com/gigasquid/wonderland-clojure-katas.git
+l
+cd wonderland-clojure-katas
+l
+l
+c
+cat README.md
+l
+cd alphabet-cipher
+l
+lein test
+l
+light-table
+lighttable
+l
+lein test
+../../../
+../
+..
+..
+..
+cd rails/BBR_TimeTrack
+c
+bk
+cd ~/Developer/rails/BBR_TimeTrack
+rails db:migrate
+cd ~/Developer/rails/BBR_TimeTrack
+l
+l
+l
+l
+c
+l
+rails s
+cd Developer/rails/BBR_TimeTrack
+l
+bundle exec guard
+cd Developer/rails/BBR_TimeTrack
+vim app/controllers/home_controller.rb
+erb2slim
+erb2slim app
+vim
+erb2slim -d app
+vim
+vim
+vim
+vim
+mine .
+..
+..
+cd Clojure
+l
+cd clojure-katas
+lein run-katas
+..
+..
+rails
+cd rails
+l
+cd BBR_TimeTrack
+c
+vim ~/.zshrc
+source ~/.zshrc
+bbrtt
+bbbh
+bbrt
+bbrtt
+vim ~/.zshrc
+bbrtt
+source ~/.zshrc
+bbrtt
+cd ~/Developer/rails/BBR_TimeTrack
+l
+bundle exec guard
+cd ~/Developer/rails/BBR_TimeTrack
+bundle exec guard
+cd Developer/Clojure
+l
+lein new euler-etc
+cd euler-etc
+lein rep
+lein repl
+cd ~/.tmux
+l
+cd plugins
+l
+cd tpm
+l
+cat README.md `
+cat README.md
+less README.md
+vim ~/.tmux.conf
+mux
+vim ~/.tmux.conf
+rm ~/.tmux.conf\~
+vim ~/.tmux.conf
+mux
+c
+mux
+mux
+vim ~/.tmux.conf
+tmux source ~/.tmux.conf
+vim ~/.tmux.conf
+mkdir ~/.vimbackups
+vim ~/.vimrc
+vim app/views/home/index.html.erb
+l
+cd app/views
+l
+cd home
+l
+vim ~/.vimrc
+l
+rm .index.html.erb.un\~
+l
+vim ~/.tmux.conf
+vim ~/.tmux.conf
+vim ~/.tmux.conf
+l
+ls
+l
+c
+l
+c
+ruby path_to_enlightenment.rb
+vim ~/.vimrc
+c
+cd ../Bots/Telegram/botbot
+c
+bundle init
+bundle install
+bundle install
+bundle install
+pry lib/botbot.rb
+quit
+l
+c
+l
+vim 
+vim
+vim
+c
+l
+c
+..
+mkdir Bots
+cd Bots
+mkdir Telegram
+cd Telegram
+l
+mkdir botbot
+touch README.md
+vim README.md
+mkdir lib
+vim lib/BotBot.rb
+cd botbot
+l
+vim
+cd ../Bots/Telegram/botbot
+l
+mkdir lib
+..
+l
+mv README.md botbot
+l
+cd botbot
+l
+touch lib/botbot.rb
+pry
+mux
+c
+cd Developer
+l
+cd koans
+l
+mux
+tmux kill-server
+brew uninstall --force tmux
+brew install --HEAD tmux
+mux
+c
+f
+irb
+pry
+..
+cd botbot
+l
+cd lib
+l
+mkdir weather
+cd weather
+touch weather.rb
+l
+pry lib/botbot.rb
+cd ~/.dotfiles/vim-files/plugin-settings
+l
+vim ycm_extra_conf.py
+vim
+cd lib/weather
+l
+vim weather.rb
+vim weather.rb
+vim ~/gotest.go
+vim ~/gotest.go
+c
+vim ~/.dotfiles/vim-files/plugin-settings/youCompleteMe.vim
+vim ~/gotest.go
+vim weather.rb
+l
+cd lib
+l
+..
+l
+cd lib
+l
+cd weather
+l
+ pry weather.rb
+ pry weather.rb
+c
+cd ../../../
+...
+cd rails/BBR_TimeTrack
+vim README.md
+c
+ranger
+lll
+l
+ll
+l
+ll
+l
+ll
+c
+ll
+l
+bundle exec guard init
+bundle exec guard
+x
+c
+..
+..
+..
+cd rails/
+rails new bb_restoration
+ll
+cd bb_restoration
+l
+vim 
+..
+..
+..
+cd Clojure/wonderland-clojure-katas/card-game-war
+lein repl
+cd .....
+cd ....
+cd ..
+..
+..
+cd Clojure/wonderland-clojure-katas/wonderland-number
+less README.md
+l
+..
+l
+cd card-game-war
+l
+less README.md
+vim src/card_game_war/game.clj
+l
+l
+l
+....
+cd rails/BBR_TimeTrack
+l
+cd lib/tasks
+l
+vim .keep
+l
+..
+git status
+l
+c
+..
+git status
+vim .rdoc_options
+vim .rspec
+vim Gemfile
+rails s
+c
+l
+l
+..
+..
+l
+cd React
+l
+cd react-project/
+l
+cat README.md
+l
+cd src
+l
+vim App.
+\:q
+c
+ll
+..
+..
+..
+l
+cd Clojure
+l
+cd clojure-katas
+l
+less README.md
+lein katas run
+..
+.
+;
+l
+cd wonderland-clojure-katas
+l
+less README.md
+cd alphabet-cipher
+l
+lein test
+....
+cd Clojure/wonderland-clojure-katas/card-game-war
+lein test
+cd Developer/Bots/Telegram/botbot
+l
+mux
+ghci
+ghci
+ghc
+source ~/.zshenv
+ghci
+c
+vim ~/.zshrc
+source ~/.zshec
+source ~/.zshrc
+ghci
+cd Developer
+l
+cd Ruby
+l
+mkdir problems
+cd problems
+touch euler1.rb
+l
+vim euler1.rb
+l
+mux
+python-config --prefix
+otool -L (which vim) | grep -i python
+otool -L (which vim) | grep -i python
+otool
+otool -L (which vim)
+otool -L (wich vim)
+otool -L (vim)
+otool -L which vim
+which vim
+otool -L /usr/local/bin/vim | grep -i python
+otool -L /usr/local/bin/vim 
+greadlink -f /usr/local/Frameworks/Python.framework/Versions/2.7
+vim ~/.dotfiles/vim-files/plugin-settings/youCompleteMe.vim
+vim ~/.vimrc
+i
+c
+vim gotest.go
+vim
+brew info macvim
+brew info vim
+brew info python
+brew info python3
+brew rm macvim
+brew list
+brew rm python python3 --force
+brew rm macvim --force
+brew install python3 
+brew linkapps python3
+which python
+python3
+c
+brew info macvim
+brew install macvim --with-lua --with-luajit --with-python3 --with-override-system-vim
+brew linkapps
+brew linkapps macvim
+vim ~/gotest.go
+c
+l
+cd ~/.vim/bundle/YouCompleteMe
+l
+./install.py
+vim ~/gotest.go
+l
+cd third_party/ycmd/ycmd/completers/go
+l
+..
+l
+cd javascript
+l
+..
+//
+..
+l
+..
+l
+..
+..
+l
+less README.md
+./install.py --all
+less  README.md
+vim
+vim ~/.dotfiles/vim-files/plugin-settings/youCompleteMe.vim
+which python3
+vim ~/gotest.go
+pry
+cd Developer/Ruby/problems
+l
+pry euler1.rb
+pry euler1.rb
+pry euler1.rb
+pry euler1.rb
+pry euler1.rb
+pry euler1.rb
+pry euler1.rb
+pry euler1.rb
+pry euler1.rb
+pry euler1.rb
+pry euler1.rb
+pry euler1.rb
+pry euler1.rb
+pry euler1.rb
+pry euler1.rb
+pry euler1.rb
+ri sum
+pry euler1.rb
+pry euler1.rb
+ruby euler1.rb
+ruby euler1.rb
+ruby euler1.rb
+ruby euler1.rb
+ruby euler1.rb
+ruby euler1.rb
+ruby euler1.rb
+ruby euler1.rb
+ruby euler1.rb
+ruby euler1.rb
+ruby euler1.rb
+l
+touch space_time.rb
+vim space_time.rb
+which python
+vim ~/.dotfiles/vim-files/plugin-settings/youCompleteMe.vim
+npm install -g eslint-plugin-react\
+
+npm install -g babel-eslint\
+
+npm install -g eslint\
+
+vim ~/.eslintrc
+vim ~/.dotfiles/vim-files/plugin-settings/syntastic.vim
+vim
+vim .
+vim ~/.vimrc
+c
+vim .
+c
+cd Developer
+l
+cd VueJS
+l
+vue
+vue list
+l
+vue help
+vue help init
+vue init webpack todo
+cd todo
+npm i
+npm run dev
+cd ~/.vim/bundle && \\
+git clone https://github.com/posva/vim-vue.git
+bk
+npm i -g eslint eslint-plugin-vue\
+
+cd Developer/Clojure
+l
+boot
+boot 
+boot -h
+l
+boot -h
+boot repl
+which python
+cd
+brew up
+brew info wireshark
+brew cask install wireshark-chmodbpf --with-lua
+brew cask install wireshark
+wireshark
+c
+l
+mux
+cd Developer/ClojureScript
+l
+lein new reagent handy-helper +sass +devcards
+l
+cd handy-helper
+l
+less README.md
+vim README.md
+l
+cd src
+l
+vim .
+l
+c
+cd Developer/Clojure
+l
+lein new learning
+lein new app clj-app
+cd clj-app
+l
+less README.md
+vim .
+l
+c
+l
+mux
+cd Developer/l
+cd Developer
+l
+cd ClojureScript
+l
+lein new figwheel cljs-app --reagent
+cd 
+cd
+c
+cd ~/Developer/ClojureScript/cljs-app
+lein figwheel
+lein new reagent devcards --devcards
+l
+cd devcards
+l
+lein figwheel
+l
+cd src
+l
+cd cljs_app
+l
+vim core.cljs
+l
+..
+..
+..
+rm -rf testing
+rm -rf cljs-app
+rm -rf claims
+l
+c
+rm -rf handy-helper/
+l,
+l
+c
+l
+=c
+c
+l
+lein new reagent cljs-app
+cd cljs-app
+lein figwheel
+vim .
+vim .
+..
+l
+gcl git clone git://github.com/swannodette/enlive-tutorial.git\
+
+git clone git://github.com/swannodette/enlive-tutorial.git\
+
+cd enlive-tutorial
+l
+lein deps
+l
+lein repl
+l

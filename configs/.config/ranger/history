@@ -6,3 +6,6 @@ cd /Users/VoxAir/.WallPapers/
 open_with j
 lj
 
+bundle install
+open_with 
+rename sessions_controller_specahhh.rb

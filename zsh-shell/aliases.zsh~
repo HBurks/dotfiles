@@ -12,7 +12,7 @@ alias devgolang='cd $GOPATH'
 alias develix='cd $HOME/Development/Elixir'
 alias ..='cd ..'
 
-alias bbrtt= 'cd ~/Developer/rails/BBR_timetrack'
+alias bbrtt= 'cd ~/Deeveloper/rails/BBR_timetrack'
 alias railsguard= 'bundle exec guard'
 alias rs= 'rails s'
 

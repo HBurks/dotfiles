@@ -1,2 +1,2 @@
-let g:used_javascript_libs = 'underscore,backbone,jquery,angularjs,angularui,flux,prelude,handlebars,react'
+let g:used_javascript_libs = 'underscore,vue,backbone,jquery,angularjs,angularui,flux,handlebars,react'
 

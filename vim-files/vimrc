@@ -4,28 +4,30 @@ set showmatch
 set encoding=utf-8
 scriptencoding utf-8
 set termencoding=utf-8
-
+set background=dark
+inoremap jj <ESC>
 set rtp+=~/.fzf                 
 
 " ============ Source Settings Files ================
 source ~/.dotfiles/vim-files/plugin-settings/csapprox.vim
 source ~/.dotfiles/vim-files/plugin-settings/appearance.vim
 source ~/.dotfiles/vim-files/plugin-settings/indentGuides.vim
-source ~/.dotfiles/vim-files/plugin-settings/lightline.vim
+"source ~/.dotfiles/vim-files/plugin-settings/lightline.vim
 source ~/.dotfiles/vim-files/plugin-settings/delimitMate.vim
 source ~/.dotfiles/vim-files/plugin-settings/elm-vim.vim
+source ~/.dotfiles/vim-files/plugin-settings/ruby.vim
+"source ~/.dotfiles/vim-files/plugin-settings/commandT.vim
 "source ~/.dotfiles/vim-files/plugin-settings/NERDTree.vim
 source ~/.dotfiles/vim-files/plugin-settings/syntastic.vim
 source ~/.dotfiles/vim-files/plugin-settings/vim-javascript.vim
-source ~/.dotfiles/vim-files/plugin-settings/youCompleteMe.vim
 "source ~/.dotfiles/vim-files/tagBar.vim
-source ~/.dotfiles/vim-files/plugin-settings/javascriptLibrariesSyntax.vim
+"source ~/.dotfiles/vim-files/plugin-settings/javascriptLibrariesSyntax.vim
 "source ~/.dotfiles/vim-files/minibufexpl.vim
 source ~/.dotfiles/vim-files/plugin-settings/vim-golang.vim
 "source ~/.dotfiles/vim-files/vim-haskell.vim
 source ~/.dotfiles/vim-files/plugin-settings/rainbow-parens.vim
 source ~/.dotfiles/vim-files/plugin-settings/emmet.vim
-
+source ~/.dotfiles/vim-files/plugin-settings/youCompleteMe.vim
 " ======= Plugin Setttings Referenced Only Here ======
 "autocmd FileType javascript JsPreTmpl html
 "autocmd FileType typescript JsPreTmpl html
@@ -38,8 +40,23 @@ let g:jsx_ext_required = 1
 
 map <C-n> :NERDTreeToggle<CR>
 let g:NERDTreeDirArrows=0
+let g:NERDTreeDirArrowExpandable = '▸'
+let g:NERDTreeDirArrowCollapsible = '▾'
+let g:NERDTreeMinimalUI=1
 
+let g:indentLine_setColors = 1
+" Vim
+let g:indentLine_color_term = 143 "239
 
+" "GVim
+ "let g:indentLine_color_gui = '#A4E57E'
+
+" none X terminal
+" let g:indentLine_color_tty_light = 7 " (default: 4)
+" let g:indentLine_color_dark = 1 " (default: 2)
+let g:indentLine_char = '│'
+
+nmap <F8> :TagbarToggle<CR>
 
 
 
@@ -51,7 +68,6 @@ set showcmd                     "Show incomplete cmds down the bottom
 "set showmode                    "Show current mode down the bottom
 "set gcr=a:blinkon0              "Disable cursor blink
 set visualbell                  "No sounds
-set autoread                    "Reload files changed outside vim
 nnoremap ; :
 vnoremap ; :
 set autoread                    " Reload on outside file change
@@ -63,15 +79,12 @@ set lazyredraw                  " Dont redraw while exec macros (performance)
 set mat=2                       "Num of 10ths of a second to blink over matching brackets
 set foldcolumn=1                "Little extra margin on left
 syntax on
-filetype plugin indent on
 let mapleader=","
 set noswapfile
-set nobackup
-set nowb
 set pastetoggle=<F2>
 
-
-
+set backupdir=~/vimbackups//
+set directory=~/vimbackups//
 " ===== Buffers and Tabs and Splits Oh My! =====
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
@@ -101,18 +114,18 @@ endtry
 " Return to last edit position when opening files (You want this!)
 au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 
-map <leader>w :Kwbd             "Delete Current buffer but dont kill window
+map <leader>W :Kwbd<cr>
 map <leader>l :bnext<cr>        "Next Buffer
 map <leader>h :bprevious<cr>    "Previous Buffer
 
 " ================ Persistent Undo ==================
 " Keep undo history across sessions, by storing in file.
 " Only works all the time.
-"if has('persistent_undo') && !isdirectory(expand('~').'/dotfiles/vimfold/backups')
-  "silent !mkdir ~/dotfiles/vimfold/backups > /dev/null 2>&1
-  "set undodir=~/dotfiles/vimfold/backups
-  "set undofile
-"endif
+if has('persistent_undo') && !isdirectory(expand('~').'/dotfiles/vimfold/backups')
+  silent !mkdir ~/dotfiles/vimfold/backups > /dev/null 2>&1
+  set undodir=~/dotfiles/vimfold/backups
+  set undofile
+endif
 
 " ================ Indentation ======================
 set autoindent
@@ -166,8 +179,8 @@ set wildignore+=tmp/**
 set wildignore+=*.png,*.jpg,*.gif
 
 " ================ Scrolling ========================
-set scrolloff=12             "Start scrolling when we're 8 lines away from margins
-set sidescrolloff=15
+set scrolloff=8             "Start scrolling when we're 8 lines away from margins
+set sidescrolloff=15    "was 15"
 set sidescroll=1
 
 " ================ Search ===========================
@@ -175,3 +188,4 @@ set incsearch               " Find the next match as we type the search
 set hlsearch                " Highlight searches by default
 set ignorecase              " Ignore case when searching...
 set smartcase               " ...unless we type a capital
+"source $VIMRUNTIME/vimrc_example.vim
